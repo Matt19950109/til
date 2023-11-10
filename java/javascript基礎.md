@@ -30,3 +30,14 @@ function 関数名( 引数 ){
   処理
   }
 
+
+# 代表的な値の取得方法
+
+- getelementbyid
+  IDを取得
+  
+- getelementbyclass
+  class名を取得
+  
+- queryselectorall
+  指定したclassなどの値をすべて取得
