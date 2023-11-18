@@ -6,7 +6,9 @@
 <br>
   例：tens_place = (num / 10) % 10
 
-- 範囲を指定して繰り返し
-  (開始したい値..終了したい値).each do |num|
-    puts num
-  end
+- 範囲を指定して繰り返し<br>
+  (開始したい値..終了したい値).each do |num|<br>
+    puts num<br>
+  end<br>
+
+  
