@@ -17,5 +17,8 @@
   end
 
 例：1 ～ 100の条件を指定したい場合<br>
+num = 1<br>
 　 while (num <= 100) do <br>
+    #処理を記述<br>
+    num += 1<br>
 　　end
