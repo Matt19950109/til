@@ -18,4 +18,4 @@
 
   例：1 ～ 100の条件を指定したい場合<br>
 　　  while (num <= 100) do <br>
-　　　end
+　　end
