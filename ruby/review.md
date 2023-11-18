@@ -17,5 +17,7 @@
   end
 
   例：1 ～ 100の条件を指定したい場合<br>
+  　　while (条件式) do　<br>
+  　　end<br>
   while (num <= 100) do <br>
 　end
