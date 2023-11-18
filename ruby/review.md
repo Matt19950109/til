@@ -12,12 +12,10 @@
     puts num<br>
   end<br>
 
-- 条件を指定してその分繰り返す場合
-  while (条件式) do
+- 条件を指定してその分繰り返す場合<br>
+  while (条件式) do<br>
   end
 
   例：1 ～ 100の条件を指定したい場合<br>
-  　　while (条件式) do　<br>
-  　　end<br>
-  while (num <= 100) do <br>
-　end
+　　  while (num <= 100) do <br>
+　　　end
