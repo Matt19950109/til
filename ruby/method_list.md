@@ -18,10 +18,10 @@
 
   例：文字列.slice!(添字)
 
-- sliceメソッド
+- sliceメソッド<br>
   配列や文字列から任意の要素を取り出すメソッド
 
-  例：ele = array.slice(-2 , 2)
+  例：ele = array.slice(-2 , 2)<br>
   →文字列末尾の2字が取り出される
 
 - scanメソッド
