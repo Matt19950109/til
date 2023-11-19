@@ -32,3 +32,7 @@ end
 
 - attr_readerメソッド
   インスタンス変数を呼び出すときの定義するメソッド
+
+- input = gets.chomp.to_sym
+  入力された値をシンボルに変換
+  before 「○○」　→ after 「:○○」
