@@ -8,6 +8,6 @@ if month == 2<br>
       days = 29<br>
     end<br>
   days = 29<br>
-  end<br>
+else<br>
   days = 28<br>
 end<br>
