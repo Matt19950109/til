@@ -3,7 +3,8 @@
 - each_with_indexメソッド<br>
   要素の繰り返し処理と同時にその要素が配列の何番目に配置されているのかを記す<br>
 
-  配列.each_with_index(配列, i) <br>
+  ○○.each do |data, index|<br>
+  <br>
   end<br>
 
   ※何番目を返す数字は0から返す
@@ -50,13 +51,6 @@
 
 - shuffleメソッド<br>
   配列の要素をランダムにシャッフルし、その結果を返す<br>
-
-- each_with_indexメソッド<br>
-  データに格納した配列と番号を一緒に出力するメソッド<br>
-  ※indexは0から出力されるので注意<br>
-  ○○.each do |data, index|<br>
-  <br>
-  end<br>
 
 - to_fメソッド<br>
   数値を読み込んでそれを浮動小数点に変換するメソッド<br>
