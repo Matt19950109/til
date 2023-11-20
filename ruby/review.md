@@ -46,3 +46,5 @@ end
   while true do<br>
     #実施する処理内容を記載<br>
   end
+
+- データを格納するときの配列はwhile文の外に定義する
