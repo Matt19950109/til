@@ -6,38 +6,38 @@ function 関数名( 引数 ){<br>
   // 関数内の処理<br>
 }
 
-- 関数式
-  変数 = function( 引数 ){
-    // 関数内の処理
+- 関数式<br>
+  変数 = function( 引数 ){<br>
+    // 関数内の処理<br>
   }
 
-- 無名関数
-  const 変数 = function(){
-    // 関数内の処理
+- 無名関数<br>
+  const 変数 = function(){<br>
+    // 関数内の処理<br>
   }
 
-- 即時関数
-  関数を定義すると同時に実行される構文
+- 即時関数<br>
+  関数を定義すると同時に実行される構文<br>
   
-  (function 関数名( 引数 ) {
-   // 関数内の処理 
+  (function 関数名( 引数 ) {<br>
+   // 関数内の処理 <br>
   })(1)
 
-- アロー関数
-  functionの記述の代わりに「() =>」を記述することで関数を定義する構文
+- アロー関数<br>
+  functionの記述の代わりに「() =>」を記述することで関数を定義する構文<br>
 
-  const 変数名 = () => {
+  const 変数名 = () => {<br>
   処理
   }
 
 
 # 代表的な値の取得方法
 
-- getelementbyid
+- getelementbyid<br>
   IDを取得
   
-- getelementbyclass
+- getelementbyclass<br>
   class名を取得
   
-- queryselectorall
+- queryselectorall<br>
   指定したclassなどの値をすべて取得
