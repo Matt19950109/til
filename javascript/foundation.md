@@ -1,3 +1,14 @@
+# データ型の種類
+- boolean
+- char
+- byte
+- short
+- int
+- long
+- float
+- double
+
+
 # javascriptの代表的な関数式
 
 - 関数宣言<br>
