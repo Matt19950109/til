@@ -25,8 +25,10 @@ int [3] scores = {1, 5, 10};
 - ArrayList…可変長配列を使用するための仕組み
 
 ①ライブラリをインポート  
+　import java.util.ArrayList  
 
-②ArrayListの宣言を行う
+②ArrayListの宣言を行う  
+　ArrayList<データ型> scores = new ArrayList <データ型>　();
 
 ③ArrayListに値を代入
 
