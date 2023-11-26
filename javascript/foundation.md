@@ -1,12 +1,12 @@
 # データ型の種類
-- boolean
-- char
-- byte
-- short
-- int
-- long
-- float
-- double
+- **boolean** …trueもしくはfalse 
+- **char** …文字
+- **byte** …整数(-128～127)
+- **short** …整数(-32768～32767)
+- **int** …整数(-2147483～2147483647)
+- **long** …整数(広範囲)
+- **float** …小数(精度低)
+- **double** …小数(精度高)
 
 
 ## javascriptの代表的な関数式
