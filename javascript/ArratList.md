@@ -23,3 +23,11 @@ int [3] scores = {1, 5, 10};
 
 - リスト…Rubyの配列に似たデータ管理の仕組み
 - ArrayList…可変長配列を使用するための仕組み
+
+①ライブラリをインポート  
+
+②ArrayListの宣言を行う
+
+③ArrayListに値を代入
+
+④ArrayListから要素を取り出す
