@@ -13,6 +13,11 @@
   //  処理を記述  
   }
 
+- **メソッドの使用(引数あり)**
+    public&emsp;static&emsp;int&emsp;square(int&emsp;number){  
+  //  処理を記述  
+  }
+
 ①返り値のデータ型を指定する必要がある  
 例)  
 &emsp;public&emsp;static&emsp;**int**&emsp;returnNumber(){  
