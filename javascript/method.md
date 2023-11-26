@@ -15,9 +15,9 @@
 
 ①返り値のデータ型を指定する必要がある  
 例)  
-public&emsp;static&emsp;**int**&emsp;returnNumber(){  
-&emsp;return 〇;  
-}  
+&emsp;public&emsp;static&emsp;**int**&emsp;returnNumber(){  
+&emsp;&emsp;return 〇;  
+&emsp;}  
 ②引数がないメソッドでも定義時の()は省略できない  
 
 ③Rubyの「def」「end」の代用で{}を使用して処理の記述を囲む
