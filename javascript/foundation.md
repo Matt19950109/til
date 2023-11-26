@@ -42,7 +42,7 @@ function 関数名( 引数 ){<br>
   }
 
 
-# 代表的な値の取得方法
+## 代表的な値の取得方法
 
 - **getelementbyid**<br>
   IDを取得
