@@ -14,7 +14,8 @@
   }
 
 - **メソッドの使用(引数あり)**
-    public&emsp;static&emsp;int&emsp;square(int&emsp;number){  
+  ※以下のように仮引数のデータ型を明記する必要がある  
+    public&emsp;static&emsp;int&emsp;square(**int&emsp;number**){  
   //  処理を記述  
   }
 
