@@ -31,7 +31,7 @@ int [3] scores = {1, 5, 10};
 　ArrayList<データ型> scores = new ArrayList <データ型>　();
 
 ③ArrayListに値を代入  
- scores.add(1);
+  scores.add(1);
 
 ④ArrayListから要素を取り出す  
- scores.get(0);
+  scores.get(0);
