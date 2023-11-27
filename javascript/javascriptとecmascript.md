@@ -10,4 +10,6 @@
 ## 実行環境
 - Universal Javascript 様々な環境で動けるように作成されたJavascriptのコード
 
-- 
+- javascriptはjavascriptエンジン上で実行される
+- シェアNo.1はV8とされている
+- javascriptからWebAPIを通じてブラウザの操作をする
