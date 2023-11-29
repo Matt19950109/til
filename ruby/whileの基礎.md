@@ -18,3 +18,27 @@ puts y
 - **x → 4 y → 0が出力される**
 
 ## 座標
+while i < 10
+    j = 0
+    horizontal_line = ''
+
+    if i == y
+      while j < 10
+        horizontal_line += mark
+        j += 1
+      end
+    else
+      while j < 10
+        if j == x
+          horizontal_line += mark
+        else
+            horizontal_line += ' '
+        end 
+        j += 1
+      end
+    end
+    puts horizontal_line
+    i += 1
+  end
+  puts line
+end
