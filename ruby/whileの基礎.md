@@ -17,7 +17,7 @@ puts y
 
 - **x → 4 y → 0が出力される**
 
-## 座標(X)
+## 座標(X座標とY座標をユーザーに入力)
 while i < 10
     j = 0
     horizontal_line = ''
