@@ -17,7 +17,7 @@ puts y
 
 - **x → 4 y → 0が出力される**
 
-## 座標
+## 座標(X)
 while i < 10
     j = 0
     horizontal_line = ''
