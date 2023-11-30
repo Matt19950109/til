@@ -13,7 +13,10 @@
 - ブラウザに表示されているHTMLやCSSを書き換える
 - ブラウザに表示されているHTMLやCSSから情報を読み取る
 - インプット→加工→アウトプットの流れを意識する
+
+## htmlに読み込ませる方法
 - HTML内に<script>～</script>を追加すればその中にjavascriptの追加ができる
+- <script src="ファイル名"> </script>と記述してファイルを指定する
 
 ### Node.js  
 javascriptプログラムを実行できるWebサーバーソフトウェア。  
