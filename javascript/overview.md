@@ -7,5 +7,5 @@
 
 
 ### Node.js  
-javascriptプログラムを実行できるWebサーバーソフトウェア。
+javascriptプログラムを実行できるWebサーバーソフトウェア。  
 PHPやRubyなどのサーバー側プログラムの開発にもjavascriptが使用できることを可能にした
