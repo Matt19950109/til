@@ -13,7 +13,7 @@
 - ブラウザに表示されているHTMLやCSSを書き換える
 - ブラウザに表示されているHTMLやCSSから情報を読み取る
 - インプット→加工→アウトプットの流れを意識する
-
+- HTML内に<script>～</script>を追加すればその中にjavascriptの追加ができる
 
 ### Node.js  
 javascriptプログラムを実行できるWebサーバーソフトウェア。  
