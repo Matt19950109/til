@@ -42,3 +42,30 @@ while i < 10
   end
   puts line
 end
+
+## lengthメソッドとwhileの併用
+
+          def push_one(array)
+            array << 1
+          end
+          
+          def count_one(array)
+            count = 0
+          
+            array.each do |element|
+              if element == 1
+                count += 1
+              end
+            end
+          
+            return count
+          end
+          
+          array = [1, 9, 6, 1]
+          
+          while array.length <= 8
+            puts array.length
+            array = push_one(array)
+          end
+          
+          puts count_one(array)
