@@ -63,9 +63,11 @@ end
           
           array = [1, 9, 6, 1]
           
-          while array.length <= 8
+          while array.length < 8
             puts array.length
             array = push_one(array)
           end
           
           puts count_one(array)
+
+## A、45676
