@@ -70,4 +70,4 @@ end
           
           puts count_one(array)
 
-## A、45676
+## A、4,5,6,7,6が順に出力されます
