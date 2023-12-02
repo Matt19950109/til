@@ -70,13 +70,16 @@
 - mergeメソッド  
   Rubyのハッシュクラスで提供されているメソッド。2つのハッシュを結合して新しいハッシュを作成する。  
   結合の際に重複するキーがある場合、引数として渡されたハッシュの値が優先される  
-### コード例
-hash1 = { "a" => 1, "b" => 2 }
-hash2 = { "b" => 3, "c" => 4 }
-
-result_hash = hash1.merge(hash2)
-
-puts result_hash
+      コード例
+      hash1 = { "a" => 1, "b" => 2 }
+      hash2 = { "b" => 3, "c" => 4 }
+      
+      result_hash = hash1.merge(hash2)
+      
+      puts result_hash
+      
+      結果
+      {"a"=>1, "b"=>3, "c"=>4}
   
   # 日付に関連したメソッド
 
