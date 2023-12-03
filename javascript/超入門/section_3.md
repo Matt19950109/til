@@ -4,4 +4,4 @@
       window.confirm(メッセージ)
 
 ## プロンプトを表示する
-            window.prompt(メッセージ)
+      window.prompt(メッセージ)
