@@ -84,6 +84,7 @@
 
   - lastメソッド  
     対象のオブジェクトから最後の要素を取得する
+    
         numbers = [1, 2, 3, 4, 5]
         last_element = numbers.last
         
