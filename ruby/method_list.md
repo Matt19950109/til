@@ -88,7 +88,7 @@
       last_element = numbers.last
       
       puts last_element
-      # 出力: 5
+    出力: 5
     
   # 日付に関連したメソッド
 
