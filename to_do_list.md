@@ -15,7 +15,7 @@
       ※解き直し
 - [ ] No.36  
       if balance >= (amount + fee)
-- [ ] No.37
+- [ ] No.37  
       ※解き直し
 - [ ] No.38
 - [ ] No.39
