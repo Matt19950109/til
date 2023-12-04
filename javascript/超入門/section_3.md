@@ -14,3 +14,6 @@
       } else {
         window.alert('yesかnoでお答えください')
       }
+
+## 文字列を整数に変換する
+      parseInt(変換したい文字列)
