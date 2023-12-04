@@ -13,7 +13,7 @@
                         puts "ポイントは#{point.floor}点です"
 - [ ] No.31  
       ※解き直し
-- [ ] No.36
+- [ ] No.36  
           if balance >= (amount + fee)
 - [ ] No.37
 - [ ] No.38
