@@ -29,8 +29,11 @@
 - [x] No.51
 - [ ] No.53  
       **※解きなおし**
-- [ ] No.55
+- [ ] No.55  
       **※解きなおし**
+      datas.each_with_index do |data, index|
+        puts "#{index + 1}：#{data[:name]}"
+      end
 - [ ] No.56
 - [ ] No.58
 - [ ] No.61
