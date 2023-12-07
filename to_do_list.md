@@ -31,9 +31,9 @@
       **※解きなおし**
 - [ ] No.55  
       **※解きなおし**
-        datas.each_with_index do |data, index|
-          puts "#{index + 1}：#{data[:name]}"
-        end
+      datas.each_with_index do |data, index|
+      puts "#{index + 1}：#{data[:name]}"
+      end
 - [ ] No.56
 - [ ] No.58
 - [ ] No.61
