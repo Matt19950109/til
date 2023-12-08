@@ -25,6 +25,6 @@
 - !a…条件文(a)がtrueでない時、評価結果がtrueになる
 
 ## while文の記述
-while(条件文) {
+while(条件文) {  
 
 }
