@@ -14,3 +14,12 @@
     end
 
 ## 答えは5348
+        n = 122
+        count = 0
+        
+        while count < 40
+          n = (n * 1.1).floor
+          count += 1
+        end
+        
+        p n
