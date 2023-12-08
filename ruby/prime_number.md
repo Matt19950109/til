@@ -1,6 +1,6 @@
+## 素数の記述コード
     primes = [2,3,5,7,11,13,17,19]
     count = 0
-    
     primes.each do |prime|
       if 23 % 2 == 0
         count += 1
