@@ -12,3 +12,5 @@
     else
       puts "23 is not prime"
     end
+
+## 答えは5348
