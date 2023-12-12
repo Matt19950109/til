@@ -52,3 +52,5 @@ function 関数名( 引数 ){<br>
   
 - **queryselectorall**<br>
   指定したclassなどの値をすべて取得
+
+## 代表的な演算子(javascriptならではのもの)
