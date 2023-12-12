@@ -69,8 +69,8 @@
 
 ## insertAdjacentHTML
 
-取得した要素.insertAdjacentHTML('挿入する場所', 挿入する要素)
-- beforebegin
-- afterbegin
-- beforeend
-- afterend
+            取得した要素.insertAdjacentHTML('挿入する場所', 挿入する要素)
+            - beforebegin
+            - afterbegin
+            - beforeend
+            - afterend
