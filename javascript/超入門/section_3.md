@@ -66,3 +66,11 @@
             const li = `<li>${item}</li>`;  
             ※上記のバックティック(`)で囲った文字列のこと。  
             文字列中に変数、ファンクションを埋め込むことができる
+
+## insertAdjacentHTML
+
+取得した要素.insertAdjacentHTML('挿入する場所', 挿入する要素)
+- beforebegin
+- afterbegin
+- beforeend
+- afterend
