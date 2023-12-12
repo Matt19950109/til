@@ -70,6 +70,7 @@
 ## insertAdjacentHTML
 
             取得した要素.insertAdjacentHTML('挿入する場所', 挿入する要素)
+            例)document.getElementById('○○').insertAdjacentHTML()
             - beforebegin(取得した要素の前)
             - afterbegin(取得した要素の子要素の前)
             - beforeend(取得した子要素の後)
