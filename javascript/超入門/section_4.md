@@ -1,5 +1,5 @@
 # イベント
-## onsubmitイベント
+## 4-01 onsubmitイベント
 フォームの送信ボタンをクリックしたときのイベント
 
     取得した要素.onsubmit = finction() {
