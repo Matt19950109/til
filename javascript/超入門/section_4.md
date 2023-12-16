@@ -43,6 +43,7 @@
 ## 4-03 Mathオブジェクト
 - floorメソッド…()内の数値の小数点以下を切り捨てるメソッド
 
+        ※小数点以下を切り捨てるプログラム
         function point(num, digit) {
           const mover = 10 ** digit
           return Math.floor(num * mover) / mover;
