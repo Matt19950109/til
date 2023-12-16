@@ -60,10 +60,10 @@ document.querySelector('CSSセレクタ')
           処理①を記述
           break;
         case △△:
-        　　処理②を記述
-            break;
+        　処理②を記述
+          break;
         case □□:
-        　　処理③を記述
+        　処理③を記述
         default:
           上記のいずれもが当てはまらない時の記述
         }
