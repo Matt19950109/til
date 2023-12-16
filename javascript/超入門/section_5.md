@@ -47,3 +47,5 @@
 
 # CSSセレクタで要素を取得する
 document.querySelector('CSSセレクタ')
+
+### タイプレセクタと属性セレクタの違い
