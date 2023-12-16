@@ -12,3 +12,8 @@
     
       return count;
     }
+
+## setTimeoutメソッド
+
+        指定した待ち時間後にファンクションを一度だけ実行するメソッド
+        setTimeout(function, 待ち時間)
