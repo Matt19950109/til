@@ -30,8 +30,8 @@
 ## padstartメソッド
 - 桁数を揃えるためのメソッド
 
-ある文字列.padstart(揃える文字数, 埋め合わせ用の文字)
-例）
-String(counter[2]).padStart(2, '0');
+        ある文字列.padstart(揃える文字数, 埋め合わせ用の文字)
+        例）
+        String(counter[2]).padStart(2, '0');
 
   
