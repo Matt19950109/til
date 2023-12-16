@@ -1,4 +1,4 @@
-# Dateオブジェクトから残り時間を計算する
+# 5-1 Dateオブジェクトから残り時間を計算する
 
     function countdown(due) {
       const now = new Date();
