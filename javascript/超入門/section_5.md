@@ -46,3 +46,4 @@
 - HTML属性のうち、「その属性があれば有効。なければ無効になるもの」
 
 # CSSセレクタで要素を取得する
+document.querySelector('CSSセレクタ')
