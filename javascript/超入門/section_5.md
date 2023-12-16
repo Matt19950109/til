@@ -1,4 +1,4 @@
-# 5-1 Dateオブジェクトから残り時間を計算する
+# 5-01 Dateオブジェクトから残り時間を計算する
 
     function countdown(due) {
       const now = new Date();
@@ -34,5 +34,7 @@
         例）
         String(counter[2]).padStart(2, '0');
         ※(counter[2])部分で数値を返す場合は「String()」をはさむことによりデータ型を変更している
+
+# 5-02 プルダウンメニューで指定ページに遷移
 
   
