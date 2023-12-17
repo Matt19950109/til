@@ -101,3 +101,10 @@ document.querySelector('CSSセレクタ')
         例）document.body.removeChild(panel);
 
 # 5-04 画像切り替え
+
+## querySelectorAllメソッド
+- 指定したclass属性の複数の要素を取得する
+  
+        document.querySelectorAll('CSSセレクタ')
+        例）
+        const thumbs = document.querySelectorAll('.thumb');
