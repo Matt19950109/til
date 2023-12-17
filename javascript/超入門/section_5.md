@@ -91,5 +91,5 @@ document.querySelector('CSSセレクタ')
           Cookies.remove('cookie-agree');
         };
 
-        Cookies.set('クッキー名', '値', {expires: 有効期限});
+        ※Cookies.set('クッキー名', '値', {expires: 有効期限});
         js-cookieライブラリが提供するメソッドで指定した条件でクッキーを保存する
