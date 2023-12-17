@@ -135,3 +135,6 @@ document.querySelector('CSSセレクタ')
 ## createElementメソッド
 - ()内のタグ名を持つ要素を生成してメモリに保存するメソッド
   ※HTMLに挿入されることはないため表示はされない
+
+## DOM操作
+- HTMLやCSSを書き換えたり追加削除したりする操作
