@@ -93,3 +93,6 @@ document.querySelector('CSSセレクタ')
 
         ※Cookies.set('クッキー名', '値', {expires: 有効期限});
         js-cookieライブラリが提供するメソッドで指定した条件でクッキーを保存する
+
+### removeChildメソッド
+- 取得した要素に含まれる子要素または親要素のうち**()内のパラメータで指定した要素**を削除する
