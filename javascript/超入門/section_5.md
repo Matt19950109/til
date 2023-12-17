@@ -99,3 +99,5 @@ document.querySelector('CSSセレクタ')
 
         取得した要素.removeChild(削除する要素)
         例）document.body.removeChild(panel);
+
+# 5-04 画像切り替え
