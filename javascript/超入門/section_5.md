@@ -113,3 +113,7 @@ document.querySelector('CSSセレクタ')
         配列.forEach(function(item, index) {
           //処理内容を記載
         });
+
+## this
+- イベントが発生した要素を指す  
+  **※イベントに設定するファンクションの中で使用可能**
