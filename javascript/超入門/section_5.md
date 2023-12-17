@@ -132,14 +132,16 @@ document.querySelector('CSSセレクタ')
 
 # 5-05 スライドショー
 
-## createElementメソッド
-- ()内のタグ名を持つ要素を生成してメモリに保存するメソッド
-  ※HTMLに挿入されることはないため表示はされない
 
 ## DOM操作
 - HTMLやCSSを書き換えたり追加削除したりする操作
 
+## createElementメソッド
+- ()内のタグ名を持つ要素を生成してメモリに保存するメソッド
+  ※HTMLに挿入されることはないため表示はされない
+
 ### 画像をプリロードする
+  
         const images = ['images/image1.jpg', 'images/image2.jpg', 'images/image3.jpg', 'images/image4.jpg', 'images/image5.jpg'];
         images.forEach(function(item, index){
           preloadImage(item);
