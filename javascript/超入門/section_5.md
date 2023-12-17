@@ -69,3 +69,4 @@ document.querySelector('CSSセレクタ')
         }
 
 ### cookieとは
+- ブラウザとwebサーバ間で送受信され、主にECサイトやSNSサイトなどでユーザーのログイン情報を管理するのに使用されている
