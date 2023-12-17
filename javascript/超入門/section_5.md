@@ -108,3 +108,8 @@ document.querySelector('CSSセレクタ')
         document.querySelectorAll('CSSセレクタ')
         例）
         const thumbs = document.querySelectorAll('.thumb');
+
+## forEachメソッド
+        配列.forEach(function(item, index) {
+          //処理内容を記載
+        });
