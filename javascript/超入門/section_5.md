@@ -117,3 +117,7 @@ document.querySelector('CSSセレクタ')
 ## this
 - イベントが発生した要素を指す  
   **※イベントに設定するファンクションの中で使用可能**
+
+          item.onclick = function() {
+            console.log(this.dataset.image);
+          }
