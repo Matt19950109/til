@@ -138,3 +138,14 @@ document.querySelector('CSSセレクタ')
 
 ## DOM操作
 - HTMLやCSSを書き換えたり追加削除したりする操作
+
+### 画像をプリロードする
+        const images = ['images/image1.jpg', 'images/image2.jpg', 'images/image3.jpg', 'images/image4.jpg', 'images/image5.jpg'];
+        images.forEach(function(item, index){
+          preloadImage(item);
+        });
+        let current = 0;
+        function preloadImage(path) {
+          let imgTag = document.createElement('img');
+          imgTag.src = path;
+        }
