@@ -121,3 +121,7 @@ document.querySelector('CSSセレクタ')
           item.onclick = function() {
             console.log(this.dataset.image);
           }
+
+## data-○○属性
+- ○○の部分は自分で決めてもよい
+        取得した要素.dataset.○○
