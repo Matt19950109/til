@@ -67,3 +67,5 @@ document.querySelector('CSSセレクタ')
         default:
           上記のいずれもが当てはまらない時の記述
         }
+
+### cookieとは
