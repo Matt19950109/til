@@ -96,3 +96,6 @@ document.querySelector('CSSセレクタ')
 
 ### removeChildメソッド
 - 取得した要素に含まれる子要素または親要素のうち「()内のパラメータで指定した要素」を削除する
+
+        取得した要素.removeChild(削除する要素)
+        例）document.body.removeChild(panel);
