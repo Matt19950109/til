@@ -11,3 +11,7 @@
     $(document).ready(function(){
       //処理を記載
     });
+
+## jqueryで要素を取得する$()メソッド
+$('セレクタ')
+※querySelectorAllメソッドと同じような働きをする
