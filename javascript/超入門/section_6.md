@@ -44,4 +44,4 @@
 - 取得した要素に()内のパラメータで指定されているクラス名が  
   ついていなければ追加、ついていれば削除を実施するメソッド
 
-    $(this).next().toggleClass('hidden');
+      $(this).next().toggleClass('hidden');
