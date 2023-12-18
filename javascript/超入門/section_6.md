@@ -12,6 +12,12 @@
       //処理を記載
     });
 
+# jqueryを使用してサブメニューを開閉する
+    $(document).ready(function(){
+      $('.submenu h3').on('click',function(){
+        $(this).next().toggleClass('hidden');
+      })
+    });
 ## jqueryで要素を取得する$()メソッド
     $('セレクタ')  
     $('.submit h3')
