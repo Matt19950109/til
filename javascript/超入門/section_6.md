@@ -8,3 +8,6 @@
 ３．イベントが発生したときの処理を実行する  
 
 ### HTMLが読み込まれたらfunction以降の処理を実行
+$(document).ready(function(){
+  //処理を記載
+});
