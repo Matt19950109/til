@@ -1,5 +1,5 @@
 # 空席状況の確認
 
 ### わからない箇所のまとめ
-float: left;
+float: left;  
 cursor: pointer;
