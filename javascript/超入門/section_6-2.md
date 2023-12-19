@@ -9,3 +9,12 @@
                 width: 270px;
                 height: 100%;
                 }
+
+## transformプロパティ
+- 要素を移動、拡大・縮小、回転をするときに使用
+
+    transform: translate3d(x軸の移動量、y軸の移動量、z軸の移動量)
+    /* ドロワーが開かれたときのスタイル */
+    .show {
+        transform: translate3d(-270px, 0, 0);
+    }
