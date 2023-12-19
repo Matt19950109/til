@@ -23,6 +23,8 @@
 
     $(document).ready(function(){
       $('#open_nav').on('click', function(){
-        $('#wrapper', '#nav').toggleClass('show');
+        $('#wrapper, #nav').toggleClass('show');
       });
     });
+    ※26行目はカンマで区切って複数のセレクタを指定している
+    　各要素に「'」を指定する必要はない
