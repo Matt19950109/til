@@ -2,6 +2,8 @@
 ## JSONとは
 
 ## findメソッドなど
+
+## よく使うjqueryメソッドの一覧
 ### わからない箇所のまとめ
 float: left;  
 cursor: pointer;
