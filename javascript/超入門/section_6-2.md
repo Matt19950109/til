@@ -18,3 +18,11 @@
       .show {
           transform: translate3d(-270px, 0, 0);
       }
+
+### 開閉機能をプログラミング
+
+    $(document).ready(function(){
+      $('#open_nav').on('click', function(){
+        $('#wrapper', '#nav').toggleClass('show');
+      });
+    });
