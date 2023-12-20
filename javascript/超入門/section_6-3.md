@@ -25,6 +25,8 @@
   ※textContentプロパティと同じ役割を持つ(textContentは**p54参照**)
 
 ## よく使うjqueryメソッドの一覧
+**p284参照**
+
 ### わからない箇所のまとめ
 float: left;  
 cursor: pointer;
