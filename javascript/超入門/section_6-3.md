@@ -27,6 +27,8 @@
 ## よく使うjqueryメソッドの一覧
 **p284参照**
 
+### コア機能
+
 ### わからない箇所のまとめ
 float: left;  
 cursor: pointer;
