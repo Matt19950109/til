@@ -2,6 +2,8 @@
 ## JSONとは
 
 ### Ajaxの基本形
+- ajaxとはJavaScriptからWebサーバにリクエストし、返されてきたデータもJavaScriptが受け取る仕組み
+  
       $.ajax({url: 'data.json', dataType: 'json'})
       .done(function(data){
         //データがダウンロードできた時の処理
