@@ -29,6 +29,8 @@
 
 ### コア機能
 
+### トラバーサル
+
 ### わからない箇所のまとめ
 float: left;  
 cursor: pointer;
