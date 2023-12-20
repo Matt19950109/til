@@ -31,6 +31,8 @@
 
 ### トラバーサル
 
+### マニピュレーション(HTMLやCSSを操作する機能)
+
 ### わからない箇所のまとめ
 float: left;  
 cursor: pointer;
