@@ -43,6 +43,15 @@
     siblings()
     prev()
 ### マニピュレーション(HTMLやCSSを操作する機能)
+    addClass('クラス')
+    removeClass('クラス')
+    toggleClass('クラス')
+    text(テキスト)
+    hasClass('クラス')
+    prepend(要素)
+    attr('要素','値')
+    attr('要素名')
+    remove()
 
 ### イベント
 
