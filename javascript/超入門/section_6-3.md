@@ -54,6 +54,8 @@
     remove()
 
 ### イベント
+    on('イベント', function(){～})
+    event.preventDefault()
 
 ### わからない箇所のまとめ
 float: left;  
