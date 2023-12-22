@@ -5,5 +5,5 @@
       navigator.geolocation.getCurrentPosition(success, fail);
 
 # 7-2 Web API
-- 何らかの機能をほかの開発が利用できるように公開する
+- 何らかの機能をほかの開発が利用できるように公開する  
 天気予報の情報を取得
