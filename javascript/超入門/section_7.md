@@ -5,4 +5,4 @@
       navigator.geolocation.getCurrentPosition(success, fail);
 
 # 7-2 Web API
-
+天気予報の情報を取得
