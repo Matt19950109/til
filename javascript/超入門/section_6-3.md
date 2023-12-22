@@ -34,7 +34,14 @@
     $ajax()
 
 ### トラバーサル
-
+    next()
+    find('セレクタ')
+    find('セレクタ')
+    children('セレクタ')
+    each(function(){～})
+    parent('セレクタ')
+    siblings()
+    prev()
 ### マニピュレーション(HTMLやCSSを操作する機能)
 
 ### イベント
