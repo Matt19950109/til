@@ -5,5 +5,9 @@
       navigator.geolocation.getCurrentPosition(success, fail);
 
 # 7-2 Web API
-- 何らかの機能をほかの開発が利用できるように公開する  
+- 何らかの機能をほかの開発が利用できるように公開する
+
+- 取得した要素の中にHTMLを挿入する
+    $('セレクタ').append(挿入するHTML)
+
 例）天気予報の情報を取得
