@@ -5,7 +5,8 @@
 sources内でScriptとして値を保持される
 例）var,functionなど
 ## スクリプトスコープ
-sources内でScriptとして値を保持される
+sources内のwindowオブジェクト内に値を保持される
+※window.○○のwindow部分を省略しても呼び出すことができる。
 例）let
 ## 関数スコープ
 ## ブロックスコープ
