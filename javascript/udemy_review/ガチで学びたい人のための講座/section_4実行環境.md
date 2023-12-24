@@ -27,3 +27,5 @@
 - ctrl + Rで更新
 - anonymous→グローバルオブジェクトのこと
 - Last In, First Out(後入れ、先出し)
+
+# 4-18 ホイスティング
