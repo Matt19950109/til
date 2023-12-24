@@ -24,3 +24,5 @@
 # 4-17 コールスタック 
 ## 調査方法
 検証ツール→sources→Call Stackを確認
+- ctrl + Rで更新
+- anonymous→グローバルオブジェクトのこと
