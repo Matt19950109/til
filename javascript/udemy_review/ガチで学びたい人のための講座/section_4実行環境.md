@@ -42,6 +42,6 @@
     }
 
 ### 関数式
-const a = function(){
-  //処理を記述
-}
+    const a = function(){
+      //処理を記述
+    }
