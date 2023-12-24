@@ -20,3 +20,5 @@
       function b() {
         console.log(this, arguments, a);
       }
+
+# 4-17 コールスタック 
