@@ -15,6 +15,7 @@
 
 - 関数コンテキスト
   実行中のコンテキスト内の変数・関数、arguments,super,this,外部変数
+  
       例）
       function b() {
         console.log(this, arguments, a);
