@@ -14,7 +14,7 @@
   例)index.html内で設定した「main.js」ファイル内
 
 - 関数コンテキスト
-  実行中のコンテキスト内の変数・関数、arguments,super,this,外部変数
+  実行中のコンテキスト内の変数・関数、arguments,super,this,外部変数(関数の外で定義されている変数)
   
       例）
       function b() {
