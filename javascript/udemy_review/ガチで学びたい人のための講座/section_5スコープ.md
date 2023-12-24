@@ -3,6 +3,7 @@
 
 ## グローバルスコープ
 sources内でScriptとして値を保持される
+wondowオブジェクト=グローバルスコープ
 例）var,functionなど
 ## スクリプトスコープ
 sources内のwindowオブジェクト内に値を保持される
