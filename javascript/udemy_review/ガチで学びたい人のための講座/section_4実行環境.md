@@ -11,6 +11,11 @@
 
 - グローバルコンテキスト
   実行中のコンテキスト内の変数・関数、グローバルオブジェクト、thisの3つが使用可能
+  例)index.html内で設定した「main.js」ファイル内
 
 - 関数コンテキスト
   実行中のコンテキスト内の変数・関数、arguments,super,this,外部変数
+        例）
+        function b() {
+          console.log(this, arguments, a);
+      }
