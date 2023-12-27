@@ -11,3 +11,22 @@
 ## javascriptにおいて()の用途
 - 関数の実行
 - グループ化
+
+### クロージャー
+
+    function incrementFactory() {
+        
+        let num = 0;
+    
+        function a() {
+            num = num + 1;
+            console.log(num);
+        }
+    
+        return a;
+    }
+    
+    incrementFactory();
+    
+    incrementFactory();
+    incrementFactory();
