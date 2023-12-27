@@ -27,6 +27,5 @@
     }
     
     incrementFactory();
-    
     incrementFactory();
     incrementFactory();
