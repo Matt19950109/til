@@ -26,8 +26,7 @@
         return a;
     }
     
-    const increment = incrementFactory();
-    
+    const increment = incrementFactory();    
     increment();
     increment();
     increment();
