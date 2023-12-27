@@ -14,6 +14,7 @@
 
 ### クロージャー
 
+    ×この記述法だと数は積み重ねされない
     function incrementFactory() {
         
         let num = 0;
