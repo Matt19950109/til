@@ -14,6 +14,8 @@
 
 ### クロージャー
 
+- よくない例
+
     ×この記述法だと数は積み重ねされない
     function incrementFactory() {
         
