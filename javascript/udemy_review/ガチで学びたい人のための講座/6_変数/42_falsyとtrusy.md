@@ -27,3 +27,16 @@ Not a Numberの略。
 - ||を用いる  
   各変数の評価を実施。truthyの値が来たらそれを表示。  
   falsyの値の場合は次の変数を評価する
+
+# 応用編
+
+function hello(name) {
+  name = name || 'Tom';
+  console.log('Hello ' + name);
+}
+
+hello()
+
+let name;
+
+name && hello(name);
