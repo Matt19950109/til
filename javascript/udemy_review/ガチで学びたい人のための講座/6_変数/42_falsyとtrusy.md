@@ -6,7 +6,8 @@ Not a Numberの略。
 
 ## AND条件
 - &&を用いる
-
+  各変数を評価していき、falsyの値が来たらそれを表示。  
+  指定した変数がすべてTruthyであれば最後の変数を表示
 
 const a = 0;
 const b = 1;
