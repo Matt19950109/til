@@ -30,15 +30,15 @@ Not a Numberの略。
 
 # 応用編
 
-//nameに変数が入っていたら変数の値、そうでない場合はTomを表示する
-function hello(name) {
-  name = name || 'Tom';
-  console.log('Hello ' + name);
-}
-
-hello()
-
-let name;
-
-//nameに値が入っていた場合のみfunctionを実施する
-name && hello(name);
+    //nameに変数が入っていたら変数の値、そうでない場合はTomを表示する
+    function hello(name) {
+      name = name || 'Tom';
+      console.log('Hello ' + name);
+    }
+    
+    hello()
+    
+    let name;
+    
+    //nameに値が入っていた場合のみfunctionを実施する
+    name && hello(name);
