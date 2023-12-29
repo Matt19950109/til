@@ -9,16 +9,16 @@ Not a Numberの略。
   各変数を評価を実施。falsyの値が来たらそれを表示。  
   指定した変数がすべてTruthyであれば最後の変数を表示
 
-    例１）
-    const a = 0;
-    const b = 1;
-    const c = 3;
-    console.log(a && b && c)
-    // 結果的に0を表示
-    
-    例2）
-    const a = 1;
-    const b = 2;
-    const c = 3;
-    console.log(a && b && c)
-    // 結果的に3を表示
+      例１）
+      const a = 0;
+      const b = 1;
+      const c = 3;
+      console.log(a && b && c)
+      // 結果的に0を表示
+      
+      例2）
+      const a = 1;
+      const b = 2;
+      const c = 3;
+      console.log(a && b && c)
+      // 結果的に3を表示
