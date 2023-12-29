@@ -22,3 +22,7 @@ Not a Numberの略。
       const c = 3;
       console.log(a && b && c)
       // 結果的に3を表示
+
+## OR条件
+  各変数の評価を実施。truthyの値が来たらそれを表示。  
+  falsyの値の場合は次の変数を評価する
