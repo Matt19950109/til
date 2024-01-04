@@ -9,23 +9,28 @@
 
 ### 以下の挙動を実施している
 
-function F(a, b) {
-    this.a = a;
-    this.b = b;
-    return {};
-}
+        function F(a, b) {
+            this.a = a;
+            this.b = b;
+            return {};
+        }
+        
+        F.prototype.c = function() {}
+        
+        //レストパラメーター
+        function newOpe(C, ...args)　{
+        
+            //__proto__に格納された空のオブジェクトを生成する
+            const _this = Object.create(C.prototype);
+        
+            //空のオブジェクトに引数を格納する(オブジェクトは参照を渡すため実引数にも反映される)
+            const result = C.apply(_this, args);
+            console.log(result, _this);
 
-F.prototype.c = function() {}
-
-//レストパラメーター
-function newOpe(C, ...args)　{
-
-    //__proto__に格納された空のオブジェクトを生成する
-    const _this = Object.create(C.prototype);
-    console.log(args)
-} 
-
-const instance = newOpe(F, 1, 2);
+            return _this;
+        } 
+        
+        const instance = newOpe(F, 1, 2);
 
 
 ## オブジェクト以外
