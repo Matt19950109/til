@@ -19,3 +19,18 @@
     bob.hello()
 
 ### 以下の実装でも挙動は変わらないがメモリの容量が多くなってしまう
+    functtion Person(name, age) {
+      this.name = name;
+      this.age = age;
+      this.hello = function() {
+      console.log('hello ' + this.name)
+      }
+    }
+    
+    Person.prototype.hello = function() {
+      console.log('hello ' + this.name)
+    }
+    
+    const bob = new Person('Bob', 23)
+    
+    bob.hello()
