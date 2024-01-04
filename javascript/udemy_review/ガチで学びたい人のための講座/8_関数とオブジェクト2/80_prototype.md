@@ -17,3 +17,5 @@
     const bob = new Person('Bob', 23)
     
     bob.hello()
+
+### 以下の実装でも挙動は変わらないがメモリの容量が多くなってしまう
