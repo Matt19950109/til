@@ -8,5 +8,6 @@
     return{…}　→　{…}
 
 ## オブジェクト以外
-
+### このオブジェクトを'this'の参照先として関数を実行
         prototype →　prototypeをコピー
+
