@@ -39,13 +39,14 @@
         }
 
 - オブジェクトかそうでないかによって条件分岐
-function fn(arg) {
-  if(arg instanceof Array) {
-        arg.push('value');
-  } else{
-        arg['key'] = 'value';
-  }
-  console.log(arg)
-}
+
+        function fn(arg) {
+          if(arg instanceof Array) {
+                arg.push('value');
+          } else{
+                arg['key'] = 'value';
+          }
+          console.log(arg)
+        }
 
 ### オブジェクトリテラルを調べる
