@@ -8,3 +8,6 @@
     }
     
     const bob = new Person('Bob', 18)
+
+        const result = bob.hasOwnProperty('name')
+        console.log(result)
