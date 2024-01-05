@@ -1,10 +1,11 @@
 ## instanceof
 - どのコンストラクターから生成されたオブジェクトかを調べる
 
+###　trueが返る
+
         function F(a, b) {
         this.a = a;
         this.b = b;
-        // return {a: 1};
         }
         
         F.prototype.c = function(){}
