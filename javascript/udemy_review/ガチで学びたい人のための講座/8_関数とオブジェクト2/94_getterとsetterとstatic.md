@@ -36,4 +36,13 @@ class Person2 {
     set name(val) {
         this._name = val;
     }
+
+    static hello() {
+    console.log('hello')
+    }
 }
+
+    Person2.hello()
+
+## スタティックメソッド
+- インスタンス化を必要としないメソッド
