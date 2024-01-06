@@ -14,7 +14,7 @@
   class Japanese extends Person {
     constructor(name, age, gender)
 
-      // 継承後のコンストラクター関数宣言より前にsuperを記載する
+        // 継承後のコンストラクター関数宣言より前にsuperを記載する
       super(name, age);
       this.gender = gender; 
     }
