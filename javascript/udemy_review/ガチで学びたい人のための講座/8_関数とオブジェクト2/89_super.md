@@ -4,6 +4,7 @@
 
 - suoerをsourcesのwatchで確認しても表示されない
 
+
     class Person {
       constructor(name, age) {
         this.name = name;
