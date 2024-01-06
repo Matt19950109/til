@@ -7,4 +7,4 @@ const s2 = Symbol('hello');
 console.log(s === s2)　→ falseを返却する
 
 ### プロトタイプ汚染
-スクリプトにより独自でprototypeのメソッドを増やして拡張すること
+- スクリプトにより独自でprototypeのメソッドを増やして拡張すること
