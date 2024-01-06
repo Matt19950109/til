@@ -4,6 +4,7 @@
 
 ### javaの使用時によく使われる
 
+## 記述
 function Person1(name, age) {
   this._name = name;
   this._age = age;
@@ -19,3 +20,4 @@ Object.defineProperty(Person1.prototype, 'name', {
 });
 
 const p1 = new Person1
+
