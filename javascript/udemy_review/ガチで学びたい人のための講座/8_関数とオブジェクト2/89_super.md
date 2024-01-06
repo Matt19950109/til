@@ -26,3 +26,9 @@
         }
         
         const taro = new Japanese('Taro', 23, 'Male')
+
+### superはメソッドの継承も可能(後から呼び出しも可能)
+super.hello()
+
+### setPrototypeOf(オブジェクト, 継承させたいオブジェクト)
+Object.setPrototypeOf(Bob, american)
