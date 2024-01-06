@@ -4,24 +4,24 @@
 
 - suoerをsourcesのwatchで確認しても表示されない
 
-  class Person {
-    constructor(name, age) {
-      this.name = name;
-      this.age = age;  
-    }
-  }
-
-  class Japanese extends Person {
-    constructor(name, age, gender)
-
-        // 継承後のコンストラクター関数宣言より前にsuperを記載する
-      super(name, age);
-      this.gender = gender; 
+    class Person {
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;  
+      }
     }
   
-    hello() {
-    console.log('hello' + this.name);
-    }
-  }
+    class Japanese extends Person {
+      constructor(name, age, gender)
   
-  const taro = new Japanese('Taro', 23, 'Male')
+    // 継承後のコンストラクター関数宣言より前にsuperを記載する
+        super(name, age);
+        this.gender = gender; 
+      }
+    
+      hello() {
+      console.log('hello' + this.name);
+      }
+    }
+    
+    const taro = new Japanese('Taro', 23, 'Male')
