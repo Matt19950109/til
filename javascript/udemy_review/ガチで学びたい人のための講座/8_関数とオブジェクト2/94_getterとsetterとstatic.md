@@ -21,3 +21,19 @@
     
     const p1 = new Person1
 
+## クラスを用いた場合
+class Person2 {
+    constructor(name, age) {
+        this._name = name;
+        this._age = age;
+    }
+
+    get name() {
+        console.log('hello')
+        return this._name;
+    }
+    
+    set name(val) {
+        this._name = val;
+    }
+}
