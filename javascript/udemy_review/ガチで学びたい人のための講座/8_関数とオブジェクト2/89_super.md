@@ -31,4 +31,5 @@
 super.hello()
 
 ### setPrototypeOf(オブジェクト, 継承させたいオブジェクト)
+- 指定のオブジェクトに対してprototypeを継承させる
 Object.setPrototypeOf(Bob, american)
