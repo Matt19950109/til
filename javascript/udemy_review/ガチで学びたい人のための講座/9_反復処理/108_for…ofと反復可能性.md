@@ -10,3 +10,19 @@
 - 特殊なプロパティ(for…ofの実行時に使用する)
 
 ## 参考コード
+    const arry = ['a', 'b', 'c'];
+    
+    //a,b,c,undefined,eを出力
+    arry[4] = 'e'
+    
+    //for…ofの反復では表示されない
+    Object.prototype.method = function() {}
+    
+    //enumerableの設定をfalseにしても14～16行目にaの値は表示される
+    Object.defineProperty(arry, 0, {
+      enumerable: false
+    });
+    
+    for(let v of arry) {
+      console.log(v);
+    }
