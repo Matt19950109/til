@@ -8,3 +8,5 @@
 
 ## Symbol(Symbol.iterator)
 - 特殊なプロパティ(for…ofの実行時に使用する)
+
+## 参考コード
