@@ -1,34 +1,34 @@
-    const items = {
-    	prop1: 'value1',
-    	prop2: 'value2',
-    	prop3: 'value3'
-    }
-    
-    Object.prototype[Symbol.iterator] = function() {
-    
-    	//プロパティを配列にしてkeysに格納
-    	const keys = Object.keys(this); 
-    	console.log(keys)
-    
-    	//next関数内で[Symbol.iterator]のthisが使用できるように関数を宣言
-    		let i = 0;
-    		let _this = this;
-    
-    	return {
-    		next() {
-    			//各プロパティから値を取得
-    			let key = keys[i];
-    			i++;
-    			console.log(_this)
-    
-    			return {
-    				value: [key, _this[key]],
-    				done: i > keys.length
-    			}
-    		}
-    	}
-    }
-    //const items = Object.entries(obj);
-    for (let item of items) {
-    	console.log(item);
-    }
+        const items = {
+        	prop1: 'value1',
+        	prop2: 'value2',
+        	prop3: 'value3'
+        }
+        
+        Object.prototype[Symbol.iterator] = function() {
+        
+        	//プロパティを配列にしてkeysに格納
+        	const keys = Object.keys(this); 
+        	console.log(keys)
+        
+        	//next関数内で[Symbol.iterator]のthisが使用できるように関数を宣言
+        		let i = 0;
+        		let _this = this;
+        
+        	return {
+        		next() {
+        			//各プロパティから値を取得
+        			let key = keys[i];
+        			i++;
+        			console.log(_this)
+        
+        			return {
+        				value: [key, _this[key]],
+        				done: i > keys.length
+        			}
+        		}
+        	}
+        }
+        //const items = Object.entries(obj);
+        for (let item of items) {
+        	console.log(item);
+        }
