@@ -1,1 +1,1 @@
-
+- publis static void main → 返り値を持たないクラス
