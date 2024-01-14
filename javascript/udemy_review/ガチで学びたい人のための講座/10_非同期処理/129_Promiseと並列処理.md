@@ -43,4 +43,7 @@
         })
 
 ## allsettledメソッド
-- status:fulfiller, value:〇が返却される
+- resolveの場合
+  →status:fulfiller, value:〇が返却される
+- rejectの場合
+  →status:rejected, value:〇が返却される
