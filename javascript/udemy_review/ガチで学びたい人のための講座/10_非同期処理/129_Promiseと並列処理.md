@@ -33,3 +33,9 @@
 
 ## raceメソッド
 - 配列内のどれか一つが完了した時点で次の処理に移行する
+
+### コード例
+        Promise.race([sleep(2), sleep(3), sleep(4)])
+        .then(function() {
+          console.log(data);
+        })
