@@ -43,6 +43,8 @@
         })
 
 ## allsettledメソッド
+### すべての非同期処理の完了を待つがそれが成功したか失敗したかがわからない
+### catchに処理が移らない
 - resolveの場合
   →status:fulfiller, value:〇が返却される
 - rejectの場合
