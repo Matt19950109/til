@@ -8,4 +8,8 @@
 - getValue  
   ※getvalue,GetvalueはNG
 
-### 
+### メソッド名は動詞 + 名詞
+
+### 定数名はすべて大文字
+- FLAG_ON  
+  ※flag_onなどの全小文字はNG
