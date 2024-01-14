@@ -41,3 +41,6 @@
         .then(function() {
           console.log(data);
         })
+
+## allsettledメソッド
+- status:fulfiller, value:〇が返却される
