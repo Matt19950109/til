@@ -1,5 +1,5 @@
 ## モジュール
-- html上で以下の記述が必要
+- html上で以下の記述が必要  
         <script type="module" src="moduleB.js"></script>
 
 ## import
