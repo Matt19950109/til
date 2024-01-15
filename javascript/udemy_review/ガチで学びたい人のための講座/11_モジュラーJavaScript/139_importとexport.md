@@ -22,3 +22,6 @@
         //変数に格納していない
         //別ファイルにて'import defaultValを記載することで流用が可能'
         export default 0;
+
+- moduleB.js
+
