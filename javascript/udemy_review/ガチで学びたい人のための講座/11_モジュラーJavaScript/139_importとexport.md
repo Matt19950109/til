@@ -10,6 +10,7 @@
 
 ## コード例
 - moduleA.js
+
         //別ファイルにて
         //import {publicVal as val, publicFn as fn} from './moduleA.js';で流用が可能
         export let publicVal = 0;
