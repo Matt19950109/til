@@ -25,3 +25,9 @@
 
 - moduleB.js
 
+        import moduleA, {publicVal as val, publicFn as fn} from './moduleA.js';
+        // * as moduleA from './moduleA.js';の記載だと
+        // オブジェクトとして格納する
+        
+        console.log(val);
+        fn();
