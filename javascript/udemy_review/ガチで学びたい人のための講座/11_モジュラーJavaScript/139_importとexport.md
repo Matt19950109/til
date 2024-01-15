@@ -1,6 +1,6 @@
 ## モジュール
 - html上で以下の記述が必要
-    <script type="module" src="moduleB.js"></script>
+        <script type="module" src="moduleB.js"></script>
 
 ## import
 - モジュールの読み込みに使用
