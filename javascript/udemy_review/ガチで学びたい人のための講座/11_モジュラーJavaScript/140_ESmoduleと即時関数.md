@@ -21,7 +21,7 @@ publicVal
 }
 })();
 
-// publicFn called: 10
+// 10、11が表示
 console.log(moduleA.publocVal++)
 
 // publicFn called: 10が表示される
