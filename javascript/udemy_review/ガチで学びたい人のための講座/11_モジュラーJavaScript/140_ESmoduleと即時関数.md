@@ -1,22 +1,26 @@
 ## 即時関数(IIFE)
 
-    const moduleA = (function () {
-    
-      console.log('IIFE called');
-    
-      let privateVal = 1;
-      let publicVal = 10;
-    
-      function publicFn() {
-        console.log('publicFn called: ' + publicVal);
-      }
-    
-      function privateFn() {
-    
-      }
-    
-      return {
-        publicFn,
-        publicVal
-      }
-    })();
+const moduleA = (function () {
+
+console.log('IIFE called');
+
+let privateVal = 1;
+let publicVal = 10;
+
+function publicFn() {
+console.log('publicFn called: ' + publicVal);
+}
+
+function privateFn() {
+
+}
+
+return {
+publicFn,
+publicVal
+}
+})();
+
+//
+console.log(moduleA.publocVal++)
+moduleA.publocFn()
