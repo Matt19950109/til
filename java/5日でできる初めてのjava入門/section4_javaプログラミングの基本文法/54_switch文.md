@@ -1,5 +1,5 @@
 
-### コード例
+### コード例(defaultは当てはまらない場合の処理を実施)
     package jp.learningdesign.javastudy;
     
     public class DisplayMonth {
