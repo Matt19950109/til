@@ -21,6 +21,9 @@ publicVal
 }
 })();
 
-//
+// publicFn called: 10
 console.log(moduleA.publocVal++)
+
+// publicFn called: 10が表示される
+(プリミティブ型はデータのコピーが渡されるため)
 moduleA.publocFn()
