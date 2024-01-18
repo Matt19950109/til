@@ -18,3 +18,5 @@
         //上記の演算子を記述せずにインスタンス化を可能にする
         const obj2 = Reflect.construct(C, [1, 2]);
         console.log(obj2);
+
+### Reflect.has
