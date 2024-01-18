@@ -49,4 +49,4 @@
         
         //以下の2行は同義
         tom.hello;
-        Reflect.get()
+        Reflect.get(tom, 'hello')
