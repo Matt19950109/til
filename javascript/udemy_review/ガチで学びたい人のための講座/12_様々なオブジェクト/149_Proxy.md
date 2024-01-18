@@ -1,6 +1,9 @@
 ## Proxy
 - プロパティ操作に独自の処理を追加するためのオブジェクト
 
+### receiver
+- newインスタンスで生成されたオブジェクトが返される
+
 ### コード例
     const targetObj = { a: 0 };
     const handler = {
