@@ -20,3 +20,6 @@
         console.log(obj2);
 
 ### Reflect.has
+        //以下の2行は同じ結果が返ってくる（コールバック関数利用時などはReflectを使う）
+        console.log('c' in obj1);
+        console.log(Reflect.has(obj1, 'c'))
