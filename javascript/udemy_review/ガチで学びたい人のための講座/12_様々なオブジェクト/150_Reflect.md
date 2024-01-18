@@ -23,3 +23,8 @@
         //以下の2行は同じ結果が返ってくる（コールバック関数利用時などはReflectを使う）
         console.log('c' in obj1);
         console.log(Reflect.has(obj1, 'c'))
+
+### defineProperty
+        //Reflectを推奨されている
+        Object.defineProperty //tryとcatchで分岐
+        Reflect.defineProperty//if elseで分岐
