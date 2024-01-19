@@ -1,4 +1,6 @@
 ## コード例
+
+### person.js
     const wm = new WeakMap();
     
     export class Person {
