@@ -17,6 +17,7 @@
         console.log(obj1);
         
         //上記の演算子を記述せずにインスタンス化を可能にする
+        //第二引数は配列を記述
         const obj2 = Reflect.construct(C, [1, 2]);
         console.log(obj2);
 
