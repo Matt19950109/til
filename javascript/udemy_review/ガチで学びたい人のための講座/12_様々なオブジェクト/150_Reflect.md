@@ -50,5 +50,6 @@
         }
         
         //以下の2行は同義
+        //オブジェクトを呼び出しているため()は必要なし
         tom.hello;
         Reflect.get(tom, 'hello')
