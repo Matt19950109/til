@@ -1,5 +1,6 @@
 ## Json
 - あくまで文字列なのでオブジェクトに変換を実施する場合がある
+- 
 
 ### JSON.stringify
     const obj = {a: 0, b: 1, c: 2};
@@ -16,3 +17,6 @@
     
     //stringと表示される
     console.log(json);
+
+### JSON.parse
+
