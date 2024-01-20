@@ -1,3 +1,22 @@
 ### input.html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>身長と体重を入力するページ</title>
+    </head>
+    <body>
+    <h1>BMIを計算するプログラム</h1>
+    <form action="bmicalc.jsp" method="post">
+    	身長：<input type = "text" size="20" name="height1">
+    	<br>
+    	体重：<input type = "text" size="20" name="weight1">
+    	<br>
+    	<input type="submit" value="BMIを計算する">
+    
+    </form>
+    
+    </body>
+    </html>
 
 ### bmicalc.jsp
