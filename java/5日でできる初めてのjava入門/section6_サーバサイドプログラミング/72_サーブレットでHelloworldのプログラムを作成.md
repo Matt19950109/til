@@ -1,2 +1,3 @@
 ### 後に調べよう
-import java.io.PrintWriter;
+import java.io.PrintWriter;  
+doGetメソッド
