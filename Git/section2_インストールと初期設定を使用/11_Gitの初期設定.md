@@ -7,3 +7,7 @@
     git config user.name
     git config user.email
     git config core.editor
+
+## その他設定確認
+    git config --list
+    cat ~/.gitconfig
