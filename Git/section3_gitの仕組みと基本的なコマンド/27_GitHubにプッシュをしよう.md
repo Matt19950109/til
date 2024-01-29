@@ -5,4 +5,7 @@
     (githubでは慣習的にoriginを使用している)
 
 ## 
-git push -u origin master
+    登録したリモートリポジトリに設定するコマンド
+    ※-uと記載することで、
+    　次回以降のorigin masterのプッシュは「git push」のみで実行できる
+    git push -u origin master
