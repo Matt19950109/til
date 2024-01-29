@@ -6,5 +6,5 @@ git init　(.gitディレクトリが作成される)　→　ローカルリポ
         →　.gitが表示される(隠れフォルダのこと)  
 
 ## ls .git
-- objects リポジトリの本体
-- config gitの設定ファイル
+- objects → リポジトリの本体
+- config → gitの設定ファイル
