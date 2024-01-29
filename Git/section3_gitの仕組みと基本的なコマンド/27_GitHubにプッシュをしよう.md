@@ -3,3 +3,6 @@
       <リモートレポジトリのURL>
     originの部分は任意で設定可能
     (githubでは慣習的にoriginを使用している)
+
+## 
+git push -u origin master
