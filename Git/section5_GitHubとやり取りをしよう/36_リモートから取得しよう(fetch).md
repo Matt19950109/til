@@ -18,3 +18,7 @@
 ## リモートの詳細情報を表示する
     git remote show origin
     → git remoteよりも詳しいリモート情報を取得できる
+
+## リモートを変更する
+    git remote rename <旧リモート名> <新リモート名>
+
