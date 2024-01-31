@@ -16,5 +16,5 @@
     masterブランチにいて何も変更をしてない時にpullを使用するのは良い
 
 ## リモートの詳細情報を表示する
-git remote show origin
-→ git remoteよりも詳しいリモート情報を取得できる
+    git remote show origin
+    → git remoteよりも詳しいリモート情報を取得できる
