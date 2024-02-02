@@ -17,3 +17,8 @@
 
 ## DCL
 - データベースに実施した変更を確定・取り消しを行う
+
+COMMIT：
+ROLLBACK：
+GRANT：
+REVOKE：
