@@ -20,5 +20,5 @@
 
 COMMIT：DBに対して実施した変更を確定する
 ROLLBACK：DBに対して実施した変更を取り消す
-GRANT：
-REVOKE：
+GRANT：ユーザに操作の権限を与える
+REVOKE：ユーザから操作の権限を奪う
