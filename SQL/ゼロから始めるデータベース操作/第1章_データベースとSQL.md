@@ -18,7 +18,7 @@
 ## DCL
 - データベースに実施した変更を確定・取り消しを行う
 
-COMMIT：
+COMMIT：DBに対して実施した変更を確定する
 ROLLBACK：
 GRANT：
 REVOKE：
