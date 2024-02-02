@@ -2,9 +2,9 @@
 
 ## DDL
 - データを格納する入れ物であるデータベースやテーブルを作成・削除する
-    CREATE：作成
-    DROP：削除
-    ALTER：構成を変更
+        CREATE：作成
+        DROP：削除
+        ALTER：構成を変更
 
 ## DML
 
