@@ -10,6 +10,9 @@
 ## DML
 - テーブルの行を検索・変更する
 
-
+SELECT：
+INSERT：
+UPDATE：
+DELETE：
 
 ## DCL
