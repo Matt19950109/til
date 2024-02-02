@@ -10,9 +10,9 @@
 ## DML
 - テーブルの行を検索・変更する
 
-SELECT：行を検索
-INSERT：新規行を登録
-UPDATE：行を更新
-DELETE：行を削除
+        SELECT：行を検索
+        INSERT：新規行を登録
+        UPDATE：行を更新
+        DELETE：行を削除
 
 ## DCL
