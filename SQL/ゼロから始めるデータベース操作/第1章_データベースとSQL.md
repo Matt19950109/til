@@ -28,3 +28,4 @@
         CREATE DATABASE <データベース名>;
 
 ## テーブルの作成
+CREATE TABLE <テーブル名>;
