@@ -37,5 +37,5 @@
 
 ## データ型の指定
 ### INTEGER型
-## CHAR型
-## VARCHAR型
+### CHAR型
+### VARCHAR型
