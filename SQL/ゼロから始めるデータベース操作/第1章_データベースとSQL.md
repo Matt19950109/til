@@ -52,4 +52,4 @@
         DROP TABLE <テーブル名>;
 
 ## テーブル名義の変更
-ALTER TABLE <テーブル名>
+ALTER TABLE <テーブル名> ADD 列の定義
