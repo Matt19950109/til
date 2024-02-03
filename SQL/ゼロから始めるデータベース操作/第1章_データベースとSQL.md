@@ -52,3 +52,4 @@
         DROP TABLE <テーブル名>;
 
 ## テーブル名義の変更
+ALTER TABLE
