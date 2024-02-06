@@ -51,5 +51,7 @@
 
 ### 現在の時刻
     SELECT CURRENT_TIME
+### 現在の日時を取得する
+    SELECT CURRENT_TIMESTAMP
 ## 変換関数
 ## 集約関数
