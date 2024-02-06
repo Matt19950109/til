@@ -26,9 +26,9 @@
     FROM SampleStr;
 
 ### 文字数
-    SELECT str1,
-        LENGTH(str1) AS len_str
-    FROM SampleStr;
+        SELECT str1,
+            LENGTH(str1) AS len_str
+        FROM SampleStr;
 
 ### 置換
 - REPLACE(対象文字列, 置換前の文字列, 置換後の文字列)
