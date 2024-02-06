@@ -37,6 +37,10 @@
             REPLACE (str1, str2, str3) AS rep_str
         FROM SampleStr;
 
+### 文字の切り出し
+- SUBSTRING(対象文字列 FROM 切り出し開始位置 FOR 切り出す文字列)
+
+
 ## 日付関数
 ## 変換関数
 ## 集約関数
