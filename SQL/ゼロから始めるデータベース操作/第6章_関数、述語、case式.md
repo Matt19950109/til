@@ -88,3 +88,6 @@
         WHERE shohin_id IN (SELECT shohin_id
                                     FROM TenpoShohin
                                     WHERE tenpo_id = '000C')
+
+## EXISTS述語
+**サブクエリのみを引数にもつ**
