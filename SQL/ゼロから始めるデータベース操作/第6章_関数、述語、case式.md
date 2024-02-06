@@ -53,5 +53,10 @@
     SELECT CURRENT_TIME;
 ### 現在の日時を取得する
     SELECT CURRENT_TIMESTAMP;
+### 日付要素の取り出し
+    EXTRACT (日付要素 FROM 日付)
+    例）
+    SELECT CURRENT_TIMESTAMP,
+        EXTRACT(YEAR FROM CURRENT_TIMESTAMP) AS YEAR;
 ## 変換関数
 ## 集約関数
