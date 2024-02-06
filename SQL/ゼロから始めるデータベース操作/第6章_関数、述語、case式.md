@@ -13,6 +13,10 @@
     FROM SampleMath;
 
 ### ROUND(対象数,丸目の桁数)
+    SELECT m,n,
+        ROUND(m,n) AS round_col
+    FROM SampleMath;
+
 ## 文字列関数
 ## 日付関数
 ## 変換関数
