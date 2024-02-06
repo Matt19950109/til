@@ -3,7 +3,9 @@
 
 ## 算術関数
 ### ABS(数値)
-
+SELECT m,
+  ABS(m) AS abs_col
+FROM SampleMath
 ## 文字列関数
 ## 日付関数
 ## 変換関数
