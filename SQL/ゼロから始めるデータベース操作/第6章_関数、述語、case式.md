@@ -47,9 +47,9 @@
 
 ## 日付関数
 ### 現在の日付
-    CURRENT_DATE
+    SELECT CURRENT_DATE
 
 ### 現在の時刻
-    CURRENT_TIME
+    SELECT CURRENT_TIME
 ## 変換関数
 ## 集約関数
