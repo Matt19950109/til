@@ -33,9 +33,9 @@
 ### 置換
 - REPLACE(対象文字列, 置換前の文字列, 置換後の文字列)
 
-    SELECT str1, str2, str3,
-        REPLACE (str1, str2, str3) AS rep_str
-    FROM SampleStr;
+        SELECT str1, str2, str3,
+            REPLACE (str1, str2, str3) AS rep_str
+        FROM SampleStr;
 
 ## 日付関数
 ## 変換関数
