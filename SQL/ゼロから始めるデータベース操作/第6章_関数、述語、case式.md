@@ -59,4 +59,8 @@
     SELECT CURRENT_TIMESTAMP,
         EXTRACT(YEAR FROM CURRENT_TIMESTAMP) AS YEAR;
 ## 変換関数
+### 型変換
+    CAST(返還前の値 AS 変換するデータ型)
+    例）
+    SELECT CAST('0001' AS INTEGER) AS int_col;
 ## 集約関数
