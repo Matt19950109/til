@@ -21,12 +21,14 @@
 - 置換、切り出し、短縮などの操作を行う
 
 ### 連結
-    文字列1 || 文字列2
+    SELECT str1, str2, str3
+      str1 || str2 || str3 AS con_col
+    FROM SampleStr;
 
 ### 文字数
     SELECT str1,
         LENGTH(str1) AS len_str
-    FROM SampleMath;
+    FROM SampleStr;
 
 ## 日付関数
 ## 変換関数
