@@ -69,4 +69,11 @@
     例）
         SELECT COALESCE(str2, 'NULLです')
             FROM SampleStr;
-## 集約関数
+
+# 6-2 述語
+## 代表的な述語
+- LIKE
+- BETWEEN
+- IS NULL,IS NOT NULL
+- IN
+- EXISTS
