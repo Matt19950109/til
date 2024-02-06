@@ -23,6 +23,11 @@
 ### 連結
     文字列1 || 文字列2
 
+### 文字数
+    SELECT str1,
+        LENGTH(str1) AS len_str
+    FROM SampleMath;
+
 ## 日付関数
 ## 変換関数
 ## 集約関数
