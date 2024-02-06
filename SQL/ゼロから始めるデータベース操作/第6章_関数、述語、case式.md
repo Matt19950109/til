@@ -91,3 +91,10 @@
 
 ## EXISTS述語
 **サブクエリのみを引数にもつ**
+        SELECT shohin_mei, hanbai_tanka
+            FROM Shohin AS s
+        WHERE EXISTS (SELECT *
+                            FROM TenpoShohin AS TS
+                        WHERE TS.tenpo_id = '000C'
+                            AND TS.tenpo_id = S.Shohin_id
+                        FROM )
