@@ -49,5 +49,7 @@
 ### 現在の日付
     CURRENT_DATE
 
+### 現在の時刻
+    CURRENT_TIME
 ## 変換関数
 ## 集約関数
