@@ -99,3 +99,20 @@
                         WHERE TS.tenpo_id = '000C'
                             AND TS.tenpo_id = S.Shohin_id
                         FROM )
+
+# 6-3 CASE式
+- 単純CASE式
+- 検索CASE式(単純CASE式を包含している)
+
+case式ｄで商品分類にA～Cを割り当てる
+
+            SELECT shohin_mei,
+                CASE WHEN shohin_bunrui = '衣服'
+                THEN 'A:' || shohin_bunrui
+                CASE WHEN shohin_bunrui = 'キッチン用品'
+                THEN 'B:' || shohin_bunrui
+                CASE WHEN shohin_bunrui = '事務用品'
+                THEN 'C:' || shohin_bunrui
+                ELSE NULL
+            END AS abc_shohin_bunrui
+        FROM Shohin;
