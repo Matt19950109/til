@@ -91,6 +91,7 @@
 
 ## EXISTS述語
 **EXISTSの引数は常に相関サブクエリ**
+
         SELECT shohin_mei, hanbai_tanka
             FROM Shohin AS s
         WHERE EXISTS (SELECT *
