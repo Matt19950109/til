@@ -6,6 +6,8 @@
     SELECT m,
       ABS(m) AS abs_col
     FROM SampleMath
+
+### MOD(被除数,除数)
 ## 文字列関数
 ## 日付関数
 ## 変換関数
