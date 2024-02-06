@@ -63,4 +63,10 @@
     CAST(返還前の値 AS 変換するデータ型)
     例）
     SELECT CAST('0001' AS INTEGER) AS int_col;
+
+### NULLを値に変換
+COALESCE(データ1, データ2, データ3…)
+例）
+    SELECT COALESCE(str2, 'NULLです')
+        FROM SampleStr;
 ## 集約関数
