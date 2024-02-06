@@ -90,7 +90,7 @@
                                     WHERE tenpo_id = '000C')
 
 ## EXISTS述語
-**サブクエリのみを引数にもつ**
+**EXISTSの引数は常に相関サブクエリ**
         SELECT shohin_mei, hanbai_tanka
             FROM Shohin AS s
         WHERE EXISTS (SELECT *
