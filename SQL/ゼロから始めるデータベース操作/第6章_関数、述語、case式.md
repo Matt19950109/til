@@ -47,11 +47,11 @@
 
 ## 日付関数
 ### 現在の日付
-    SELECT CURRENT_DATE
+    SELECT CURRENT_DATE;
 
 ### 現在の時刻
-    SELECT CURRENT_TIME
+    SELECT CURRENT_TIME;
 ### 現在の日時を取得する
-    SELECT CURRENT_TIMESTAMP
+    SELECT CURRENT_TIMESTAMP;
 ## 変換関数
 ## 集約関数
