@@ -40,6 +40,10 @@
 ### 文字の切り出し
 - SUBSTRING(対象文字列 FROM 切り出し開始位置 FOR 切り出す文字列)
 
+        SELECT str1,
+            SUBSTRING(str1 FROM 3 FOR 2) AS sub_str
+        FROM SampleStr;
+
 
 ## 日付関数
 ## 変換関数
