@@ -8,7 +8,9 @@
     FROM SampleMath
 
 ### MOD(被除数,除数)
-
+SELECT n,p,
+    MOD(n,p) AS mod_col
+FROM SampleMath;
 
 ## 文字列関数
 ## 日付関数
