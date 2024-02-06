@@ -12,6 +12,7 @@
         MOD(n,p) AS mod_col
     FROM SampleMath;
 
+### ROUND(対象数,丸目の桁数)
 ## 文字列関数
 ## 日付関数
 ## 変換関数
