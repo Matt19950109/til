@@ -97,8 +97,7 @@
         WHERE EXISTS (SELECT *
                             FROM TenpoShohin AS TS
                         WHERE TS.tenpo_id = '000C'
-                            AND TS.shohin_id = S.Shohin_id
-                        FROM )
+                            AND TS.shohin_id = S.Shohin_id );
 
 # 6-3 CASE式
 - 単純CASE式
