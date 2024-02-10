@@ -44,8 +44,8 @@ p64
             ls --quote-name
 
 **引数を取るロングオプションは引数との間にスペースを入れるか、=で引数を指定する**
-         ls --width 30
-         ls --width=30
+             ls --width 30
+             ls --width=30
 
 
 
