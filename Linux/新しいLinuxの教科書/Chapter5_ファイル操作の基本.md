@@ -9,7 +9,7 @@ mkdir [オプション] <作成するディレクトリ名>
 
     touch newfile
 
-## rm rmdirコマンド
+## rmコマンド rmdirコマンド
 
     下記のようにまとめてファイルを削除することも可能
     rm file1 file2 file3
