@@ -10,3 +10,5 @@ vim → コマンド
     保存 → :w
     :q! → 保存せずに強制終了
 vim newfile.txt
+
+## Vimの編集操作
