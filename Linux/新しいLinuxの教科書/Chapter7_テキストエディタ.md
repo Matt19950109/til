@@ -12,3 +12,8 @@ vim → コマンド
 vim newfile.txt
 
 ## Vimの編集操作
+
+    h → 左に移動
+    j → 下に移動
+    k → 上に移動
+    l → 右に移動
