@@ -4,3 +4,6 @@
 
     find <検索開始ディレクトリ> <検索条件> <アクション>
     $ find . -name file-1.txt -print
+
+### オプション
+ファイル名で探す-name,-inameオプション
