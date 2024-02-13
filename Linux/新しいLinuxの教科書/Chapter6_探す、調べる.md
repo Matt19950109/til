@@ -14,3 +14,7 @@
         -type f → 通常ファイル
         -type d → ディレクトリ
         -type l → シンボリックリンク
+
+### 複数の検索条件の指定
+        $ find . -type f -a -name '*.txt' -print
+        ※-aは省略可能
