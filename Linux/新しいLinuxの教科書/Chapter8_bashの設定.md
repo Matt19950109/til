@@ -6,3 +6,11 @@
     例）
     alias la='ls -a'
     alias cp='cp -i'
+
+## エイリアスの確認と削除
+
+    確認コマンド
+    type <コマンド>
+    
+    削除
+    unalias <コマンド>
