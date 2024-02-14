@@ -60,5 +60,8 @@
     echo $PATH
     PATH="$PATH:~/bin"
 
-## LANG ロケール
-echo $LANG
+## LANG ロケール(P139)
+    echo $LANG
+    
+    利用可能なロケール一覧
+    lacale -a
