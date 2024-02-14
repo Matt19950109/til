@@ -40,3 +40,5 @@ vim newfile.txt
     カット → デリート(delete)
     コピー → ヤンク(yank)
     ペースト → プット(put)
+
+### デリート
