@@ -76,11 +76,11 @@ wc → 行数やバイト数を出力する
 
 ### コマンド組み合わせの例
 
-ファイルサイズを小さい順に表示
-du -b /bin/* | sort -n
-
-ファイルサイズを大きい順に表示
-du -b /bin/* | sort -n | tac
-
-ファイルサイズのトップ5を表示
-du -b /bin/* | sort -n | tac | head -n 5
+      ファイルサイズを小さい順に表示
+      du -b /bin/* | sort -n
+      
+      ファイルサイズを大きい順に表示
+      du -b /bin/* | sort -n | tac
+      
+      ファイルサイズのトップ5を表示
+      du -b /bin/* | sort -n | tac | head -n 5
