@@ -53,3 +53,8 @@
     %wheel ALL=(ALL)ALL
 
 ## visudoコマンド(/etc/sudoersファイルを編集する)
+
+
+
+## ターミナルマルチプレクサ
+- 
