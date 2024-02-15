@@ -51,3 +51,5 @@
     ※ユーザにsudoの権限を許可するかは/etc/sudoersファイルで管理されている
     
     %wheel ALL=(ALL)ALL
+
+## visudoコマンド(/etc/sudoersファイルを編集する)
