@@ -28,4 +28,6 @@
     chmod u + w file.txt
     chmod g - w file.txt
 
-### 数値モードでのパーミッション
+### 数値モードでのパーミッション(P158)
+
+    chmod 755 file.txt
