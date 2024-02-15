@@ -22,3 +22,6 @@
 
       2つのファイルにリダイレクトする
       ls /xxxxx > list.txt 2> error.txt
+
+## 標準出力と標準エラー出力をまとめる
+      ls /xxxxx > result.txt 2>&1
