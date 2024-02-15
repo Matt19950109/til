@@ -24,4 +24,8 @@
     - g → グループ
     - o → その他ユーザ
     - a → ugoすべて
-    
+    例）
+    chmod u + w file.txt
+    chmod g - w file.txt
+
+### 数値モードでのパーミッション
