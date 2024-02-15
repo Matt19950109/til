@@ -47,4 +47,7 @@
 ### sudoコマンド(コマンドを別のユーザーとして実行する)
 **1コマンドだけスーパーユーザ権限で実行可能。この点がsuコマンドと異なる**
 
-sudo cat /etc/shadow
+    sudo cat /etc/shadow
+    ※ユーザにsudoの権限を許可するかは/etc/sudoersファイルで管理されている
+    
+    %wheel ALL=(ALL)ALL
