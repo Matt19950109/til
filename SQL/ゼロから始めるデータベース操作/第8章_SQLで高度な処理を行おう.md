@@ -10,3 +10,6 @@
         ・ORDER BY → どの列をどんな順序で順位付けするかを指定
 
 # ウィンドウ専用関数の種類
+- RANK → 
+- DENSE_RANK → 
+- ROW_NUMBER → 
