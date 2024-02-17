@@ -29,3 +29,6 @@
 
 ## 2つのORDER BY
 OVER句内に必須のORDER BYとランキングをソートするためのORDER BYで2つのORDER BYを1文に記載することもある
+
+
+# GROUPING演算子
