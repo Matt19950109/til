@@ -18,7 +18,7 @@
 
 # 集約関数のウィンドウ関数
 
-時系列でその時点でのリアルタイムの「累計を表示する」
-SELECT shohin_id, shohin_mei, hanbai_tanka,
-        SUM(hanbai_tanka) OVER (ORDER BY shohin_id) AS current_sum
-FROM Shohin;
+        時系列でその時点でのリアルタイムの「累計を表示する」
+        SELECT shohin_id, shohin_mei, hanbai_tanka,
+                SUM(hanbai_tanka) OVER (ORDER BY shohin_id) AS current_sum
+        FROM Shohin;
