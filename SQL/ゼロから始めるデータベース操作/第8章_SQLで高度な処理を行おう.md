@@ -28,4 +28,4 @@
 - FOLLOWING → カレントレコードを含む後の行を指定
 
 ## 2つのORDER BY
-OVER句内に必須のORDER BYと
+OVER句内に必須のORDER BYとランキングをソートするためのORDER BYで2つのORDER BYを1文に記載することもある
