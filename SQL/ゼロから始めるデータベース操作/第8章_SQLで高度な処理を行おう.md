@@ -33,5 +33,6 @@ OVER句内に必須のORDER BYとランキングをソートするためのORDER
 
 # GROUPING演算子
 - 昔はUNUON ALLを使ってドッキングさせる手法があった
+GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
 
 ## ROLLUP 合計と小計を一度に求める
