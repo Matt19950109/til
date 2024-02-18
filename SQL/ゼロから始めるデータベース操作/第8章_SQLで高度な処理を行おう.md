@@ -56,3 +56,8 @@ GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
         超集合行に小計を含む合計が表示される
 
 ## GROUPING関数にて偽物のNULLを見分ける
+
+        SELECT GROUPING(shohin_bunrui) AS shohin_bunrui,
+                GROUPING(torokubi) AS torokubi, SUM(hanbai_tanka) AS sum_tanka
+           FRON Shohin
+        GROUP BY ROLLUP(shohin_bunrui, torokubi);
