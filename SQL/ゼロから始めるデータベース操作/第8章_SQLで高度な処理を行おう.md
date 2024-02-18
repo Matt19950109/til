@@ -36,3 +36,6 @@ OVER句内に必須のORDER BYとランキングをソートするためのORDER
 GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
 
 ## ROLLUP 合計と小計を一度に求める
+SELECT shohin_bunrui, SUM(hanbai_tanka) AS sum_tanka
+        FROM Shohin
+GROUP BY ROLLUP(shohin_bunrui);
