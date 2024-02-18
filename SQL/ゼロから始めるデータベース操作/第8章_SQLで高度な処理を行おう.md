@@ -108,6 +108,8 @@ GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
 
 
 ### CUBE データで積み木を作る
+CUBEはすべての可能な組み合わせを一つの結果にまとめてしまう機能
+組み合わせ数は2ⁿで表す
 
         shop=#         SELECT CASE WHEN GROUPING(shohin_bunrui) = 1
         shop-#                         THEN '商品分類 合計'
