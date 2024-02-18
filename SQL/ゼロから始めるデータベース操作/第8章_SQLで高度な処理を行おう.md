@@ -108,3 +108,13 @@ GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
 
 
 ### CUBE データで積み木を作る
+
+        shop=#         SELECT CASE WHEN GROUPING(shohin_bunrui) = 1
+        shop-#                         THEN '商品分類 合計'
+        shop-#                         ELSE shohin_bunrui END AS shohin_bunrui,
+        shop-#                 CASE WHEN GROUPING(torokubi) = 1
+        shop-#                         THEN '登録日　合計'
+        shop-#                         ELSE CAST(torokubi AS VARCHAR(16)) END AS torokubi,
+        shop-#                 SUM(hanbai_tanka) AS sum_tanka
+        shop-#         FROM Shohin
+        shop-#         GROUP BY CUBE(shohin_bunrui, torokubi);
