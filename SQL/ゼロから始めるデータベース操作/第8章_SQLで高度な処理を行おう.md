@@ -45,3 +45,12 @@ GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
         SELECT shohin_bunrui, SUM(shohin_tanka) AS sum_tanka
                 FROM Shohin
         GROUP BY ROLLUP(shohin_bunrui);
+
+         shohin_bunrui | sum_tanka
+        ---------------+-----------
+                       |     16780
+         キッチン用品  |     11180
+         衣服          |      5000
+         事務用品      |       600
+        (4 行)
+        超集合行に小計を含む合計が表示される
