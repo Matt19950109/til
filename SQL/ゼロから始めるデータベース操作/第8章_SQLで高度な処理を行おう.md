@@ -76,3 +76,5 @@ GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
                      0 |        1 |      5000
                      0 |        1 |       600
         (11 行)
+
+### GROUPING関数を使用して合計の文字列を指定する
