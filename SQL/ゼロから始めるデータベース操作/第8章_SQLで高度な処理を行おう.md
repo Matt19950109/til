@@ -78,6 +78,8 @@ GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
         (11 行)
 
 ### GROUPING関数を使用して合計の文字列を指定する
+**GROUPING関数の0と1の分岐を利用して合計の文字列を代入する**
+
         SELECT CASE WHEN GROUPING(shohin_bunrui) = 1
                         THEN '商品分類 合計'
                         ELSE shohin_bunrui END AS shohin_bunrui,
