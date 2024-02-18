@@ -41,6 +41,7 @@ GROUPING 演算子にはROLLUP,CUBE,GROUPING SETSの三種類存在している
         GROUP BY ROLLUP(shohin_bunrui);
 
 **集約キーの組み合わせが異なる結果を一度に計算する**
+
         SELECT shohin_bunrui, SUM(shohin_tanka) AS sum_tanka
                 FROM Shohin
         GROUP BY ROLLUP(shohin_bunrui);
