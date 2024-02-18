@@ -32,3 +32,4 @@ OVER句内に必須のORDER BYとランキングをソートするためのORDER
 
 
 # GROUPING演算子
+- 昔はUNUON ALLを使ってドッキングさせる手法があった
