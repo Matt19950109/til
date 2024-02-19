@@ -79,4 +79,4 @@
 tail -n 1 /etc/passwd
 
 ファイルの先頭1行のみ表示
-
+head -n 1 /etc/passwd
