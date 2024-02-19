@@ -53,7 +53,14 @@
     cut -d : -f 1,6,7 /etc/passwd
 
 
-
+## trコマンド(入力の文字を置き換える)
+    tr <置換前の文字> <置換後の文字>
+    
+    例）:を,に置換する
+    cat /etc/passwd | tr : ,
+    
+    複数の文字を置換する
+    cat /etc/passwd | tr abc ABC
 
 
 
