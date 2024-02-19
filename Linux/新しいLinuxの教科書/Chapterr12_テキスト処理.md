@@ -25,13 +25,14 @@
 
 ## uniqコマンド(重複行を取り除く)
 
-uniq file2
-※同じ内容の行が連続している場合に限り重複を取り除く
-
-Hokkaido
-Aomori
-Iwate
-Miyagi
-Hokkaido
-
-sortしてからuniqすればファイル全体から重複行を取り除く
+    uniq file2
+    ※同じ内容の行が連続している場合に限り重複を取り除く
+    
+    Hokkaido
+    Aomori
+    Iwate
+    Miyagi
+    Hokkaido
+    
+    sortしてからuniqすればファイル全体から重複行を取り除く
+    sort file3 | uniq
