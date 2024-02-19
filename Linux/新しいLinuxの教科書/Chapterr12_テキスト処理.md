@@ -75,8 +75,8 @@
 
 - オプションなしの場合、ファイルの末尾10行が表示される
 
-末尾1行のみ表示
-tail -n 1 /etc/passwd
-
-ファイルの先頭1行のみ表示
-head -n 1 /etc/passwd
+    末尾1行のみ表示
+    tail -n 1 /etc/passwd
+    
+    ファイルの先頭1行のみ表示
+    head -n 1 /etc/passwd
