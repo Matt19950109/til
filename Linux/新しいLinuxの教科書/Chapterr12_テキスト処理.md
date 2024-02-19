@@ -64,12 +64,12 @@
 
 ### trコマンドは純粋なフィルタとして設計されているため、ファイルから直接読み込むことはできない
 
-×：
-tr : , /etc/passwd
-
-〇：
-cat /etc/passwd | tr : ,
-tr : , < /etc/passwd
+    ×：
+    tr : , /etc/passwd
+    
+    〇：
+    cat /etc/passwd | tr : ,
+    tr : , < /etc/passwd
 
 
 
