@@ -21,5 +21,5 @@
     grep 't.st' example.txt
 
 ### ドットそのものをマッチさせる
-grep '\org' example.txt
-※このようにメタ文字の意味を打ち消すことを「エスケープする」という
+    grep '\org' example.txt
+    ※このようにメタ文字の意味を打ち消すことを「エスケープする」という
