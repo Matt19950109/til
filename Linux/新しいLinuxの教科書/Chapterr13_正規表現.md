@@ -43,3 +43,5 @@
 
     '^B[ea]*r$' → Ber,Beer,Bear,Brなどにマッチ
     「exで始まってtxtで終了する行」 → ^ex*.txt
+
+## 拡張正規表現
