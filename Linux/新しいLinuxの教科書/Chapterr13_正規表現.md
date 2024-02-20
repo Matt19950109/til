@@ -40,3 +40,6 @@
 ## 繰り返しを指定するメタ文字
     * → 0回以上の繰り返し
     Be*r → Br,Ber,Beerにマッチ
+
+    '^B[ea]*r$' → Ber,Beer,Bear,Brなどにマッチ
+    「exで始まってtxtで終了する行」 → ^ex*.txt
