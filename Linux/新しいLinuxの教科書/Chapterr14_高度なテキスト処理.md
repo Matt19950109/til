@@ -68,3 +68,8 @@
 
 My～の文字列をグループ化して置換
 sed 's/My \(.*\)/--\1--/' drink.txt
+
+アドレス指定して置換
+sed '1,3s/Beer/Whisky/g' drink.txt
+
+区切り文字を!に変換してBeerを/Beer/置換
