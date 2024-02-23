@@ -88,7 +88,18 @@
 
 ### awkの例文
 
-    score.txtの第2と第3フィールドのみを表示
+    ①score.txtの第2と第3フィールドのみを表示
     awk '{print $2,$3}' score.txt
 
+    ②第一フィールドがsから始まるレコードのみ行番号付きで表示
+    awk '$1 ~ /^s/ {print NR,$0}' score.txt
+
+    lsコマンドの結果から5,9行目を表示
+    la -l /usr/bin | awl '{print $5,$9}'
+
+    lsコマンドの結果から5,9行目を表示(スペースなし)
+    la -l /usr/bin | awl '{print $5 $9}'
+    
+
 **awkは特定のフィールドを抽出して表示するという列選択をする**
+
