@@ -46,3 +46,5 @@ shかbashがメインで使用されるが、互換性・移植性の観点か�
           bash homesize-noshibang.sh
         ③sourceコマンドを利用して実行
           source homesize-noshibang.sh
+
+sourceコマンド → カレントシェルでシェルスクリプトが実行されるため現在の環境が引き継がれる
