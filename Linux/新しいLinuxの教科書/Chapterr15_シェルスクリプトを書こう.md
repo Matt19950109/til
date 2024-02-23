@@ -40,9 +40,9 @@ shかbashがメインで使用されるが、互換性・移植性の観点か�
         ../homesize-noshibang.sh
 
 ## 実行方法による違い
-①ファイル名のみ指定して実行
-  .homesize.sh
-②シェルの引数として実行
-  bash homesize-noshibang.sh
-③sourceコマンドを利用して実行
-  source homesize-noshibang.sh
+        ①ファイル名のみ指定して実行
+          .homesize.sh
+        ②シェルの引数として実行
+          bash homesize-noshibang.sh
+        ③sourceコマンドを利用して実行
+          source homesize-noshibang.sh
