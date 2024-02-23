@@ -10,16 +10,16 @@ shかbashがメインで使用されるが、互換性・移植性の観点か�
 
 ## シェルスクリプト作成の流れ
 
-.shの拡張子なしでも作成可能だが慣習として記載している
-vim homesize.sh
-
-・ファイル内容
-#!/bin/bash
-du -h ~ | tail -n 1
-
-シェルスクリプトに実行件ゲインを付与
-chmod +x homesize.sh
-
-シェルスクリプトを実行する
-※先頭に./を付与
-./homesize.sh
+    .shの拡張子なしでも作成可能だが慣習として記載している
+    vim homesize.sh
+    
+    ・ファイル内容
+    #!/bin/bash
+    du -h ~ | tail -n 1
+    
+    シェルスクリプトに実行件ゲインを付与
+    chmod +x homesize.sh
+    
+    シェルスクリプトを実行する
+    ※先頭に./を付与
+    ./homesize.sh
