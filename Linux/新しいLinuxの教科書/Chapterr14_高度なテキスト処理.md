@@ -30,3 +30,4 @@ sed '3,$d' drink.txt
 sed d drink.txt
 
 ⑤先頭がBで始める行を削除
+sed '/^B/d' drink.txt
