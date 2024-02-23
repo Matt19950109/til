@@ -59,3 +59,6 @@ shかbashがメインで使用されるが、互換性・移植性の観点か�
         作成したシェルスクリプトを~/binに移動する
         mkdir ~/bin
         mv homesize.sh ~/bin
+
+サーチパスに~/binを追加
+        PATH="$PATH:~/bin"
