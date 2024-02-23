@@ -33,5 +33,9 @@
     sed '/^B/d' drink.txt
 
 ### 行を表示する
-sed 1p drink.txt
 
+    ①1行目を表示する(パターンスペースあり)
+    sed 1p drink.txt
+    
+    ②1行目を表示する(パターンスペースなし)
+    sed 1p -n drink.txt
