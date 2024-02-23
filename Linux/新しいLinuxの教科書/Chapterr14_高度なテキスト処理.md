@@ -73,3 +73,4 @@ sed 's/My \(.*\)/--\1--/' drink.txt
 sed '1,3s/Beer/Whisky/g' drink.txt
 
 区切り文字を!に変換してBeerを/Beer/置換
+sed 's!Beer!/Beer/!g' drink.txt
