@@ -33,3 +33,5 @@
     sed '/^B/d' drink.txt
 
 ### 行を表示する
+sed 1p drink.txt
+
