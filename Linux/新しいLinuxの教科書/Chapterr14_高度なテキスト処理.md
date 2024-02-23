@@ -17,17 +17,17 @@
 
 ### 表を削除する  
 
-①1行目を削除する
-sed 1d drink.txt
-
-②2～5行目を削除する
-sed 2,5d drink.txt
-
-③3行目から最終行までを削除
-sed '3,$d' drink.txt
-
-④全行を削除
-sed d drink.txt
-
-⑤先頭がBで始める行を削除
-sed '/^B/d' drink.txt
+    ①1行目を削除する
+    sed 1d drink.txt
+    
+    ②2～5行目を削除する
+    sed 2,5d drink.txt
+    
+    ③3行目から最終行までを削除
+    sed '3,$d' drink.txt
+    
+    ④全行を削除
+    sed d drink.txt
+    
+    ⑤先頭がBで始める行を削除
+    sed '/^B/d' drink.txt
