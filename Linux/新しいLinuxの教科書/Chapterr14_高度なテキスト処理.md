@@ -118,3 +118,4 @@ $NF → 最後のフィールドが表示される
     awk -F '{print $1,$2,$3}' score.csv
 
 ## 点数の平均を表示
+awk -F, '{sum += $NF} END{print "Average:",sum/NR}' score.txt
