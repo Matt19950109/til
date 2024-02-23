@@ -88,5 +88,7 @@
 
 ### awkの例文
 
-score.txtの第2と第3フィールドのみを表示
-awk '{print $2,$3}' score.txt
+    score.txtの第2と第3フィールドのみを表示
+    awk '{print $2,$3}' score.txt
+
+**awkは特定のフィールドを抽出して表示するという列選択をする**
