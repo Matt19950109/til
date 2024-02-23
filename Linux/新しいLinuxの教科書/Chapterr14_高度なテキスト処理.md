@@ -47,3 +47,12 @@
 ### 例文
     ①BeerをWhiskyに変換(行頭から探して最初の文字列のみ)
     sed 's/Beer/Whisky/' drink.txt
+    
+    ②正規表現を利用した置換(見つけた全ても文字列を変換する)
+    sed 's/B.*r/Whisky/g'
+
+    ③！を削除
+    sed 's/!//g' drink.txt
+
+    ④置換が発生した行だけを表示(今回は!マーク)
+    sed 's/!//gp'
