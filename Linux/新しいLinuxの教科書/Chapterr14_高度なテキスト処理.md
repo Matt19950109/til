@@ -45,5 +45,5 @@
     s/置換前文字列/置換後文字列/フラグ
 
 ### 例文
-    ①BeerをWhiskyに変換
+    ①BeerをWhiskyに変換(行頭から探して最初の文字列のみ)
     sed 's/Beer/Whisky/' drink.txt
