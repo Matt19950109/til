@@ -60,6 +60,6 @@ shかbashがメインで使用されるが、互換性・移植性の観点か�
         mkdir ~/bin
         mv homesize.sh ~/bin
 
-サーチパスに~/binを追加
+## サーチパスに~/binを追加
         PATH="$PATH:~/bin"
         ※一度ログアウトするかsource ~/.bash_profileで反映される
