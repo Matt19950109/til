@@ -82,3 +82,6 @@ local filepath=$1
         list_recursive "$1" ""
 
 ## 演習3(検索コマンド)
+
+### xargsコマンド
+- 標準入力として「引数のリスト」を与える
