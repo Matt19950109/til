@@ -47,6 +47,14 @@ local filepath=$1
         IFSを改行のみに設定
         IFS='
         '
+ 
+ - IFSをバックアップしておき処理後に戻す
+
+     _IFS=$IFS
+     IFS=$"\n"
+    ###必要な処理を行う
+    IFS=$_IFS
+ 
 ## 最終的な例文
         #!/bin/bash
         
