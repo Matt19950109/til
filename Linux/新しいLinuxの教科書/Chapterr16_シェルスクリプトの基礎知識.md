@@ -86,3 +86,29 @@ exit <終了ステータス>
     do
         echo "$parameter"
     done
+
+## case文(指定された文字列がパターンにマッチするかを判断しマッチしたパターンに対応した処理を行う)
+
+    case <文字列> in
+        <パターン1>)
+        処理1
+            ;;
+        <パターン2>)
+        処理2
+        ;;
+    esac
+
+## 例文
+    #!/bin/bash
+    
+    case "$1" in
+        *.txt)
+            less "$1"
+            ;;
+        *.sh)
+            vim "$1"
+            ;;
+        *)
+        echo "not supported file : $1"
+        ;;
+    esac
