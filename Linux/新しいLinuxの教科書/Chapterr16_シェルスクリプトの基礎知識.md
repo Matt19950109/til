@@ -70,10 +70,19 @@ exit <終了ステータス>
         <繰り返す処理>
     done
 
-### 例文
+### 例文(0001txtから連番のファイルを作成する)
     #!/bin/bash
     
     for i in $(seq 1 5)
     do
         touch "000${i}.txt"
+    done
+
+### コマンドライン引数を順に表示する
+    #!/bin/bash
+    
+    for parameter in "$@"
+    
+    do
+        echo "$parameter"
     done
