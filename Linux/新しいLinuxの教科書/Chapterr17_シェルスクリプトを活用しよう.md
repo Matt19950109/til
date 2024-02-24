@@ -26,3 +26,6 @@
     fi
     
     vim "$diaryfile"
+
+### ローカル変数の宣言
+local filepath=$1
