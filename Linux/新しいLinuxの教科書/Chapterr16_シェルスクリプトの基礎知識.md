@@ -121,11 +121,11 @@ exit <終了ステータス>
     done
 
 ### 例文(10以下の奇数を表示)
-#!/bin/bash
-
-i=1
-while [ "$1" -le 10 ]
-do
-    echo "$1"
-    i=$((i + 2))
-done
+    #!/bin/bash
+    
+    i=1
+    while [ "$1" -le 10 ]
+    do
+        echo "$1"
+        i=$((i + 2))
+    done
