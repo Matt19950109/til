@@ -50,10 +50,10 @@ local filepath=$1
  
  - IFSをバックアップしておき処理後に戻す
 
-     _IFS=$IFS
-     IFS=$"\n"
-    ###必要な処理を行う
-    IFS=$_IFS
+         _IFS=$IFS
+         IFS=$"\n"
+        ###必要な処理を行う
+        IFS=$_IFS
  
 ## 最終的な例文
         #!/bin/bash
