@@ -60,6 +60,9 @@ local filepath=$1
         
             if [ -d "$filepath" ]; then
             local fname
+
+            IFS='
+            '
             for fname in $(ls "$filepath")
             do
                 # インデントにスペースを追加して再帰呼び出し
