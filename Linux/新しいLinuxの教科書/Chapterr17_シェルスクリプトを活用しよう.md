@@ -112,10 +112,10 @@ local filepath=$1
             usage()
             {
             
-                #
+                # シェルスクリプトのファイル名を取得
                 local script_name=$(basename "$0")
             
-                #
+                # ヒアドキュメントでヘルプを表示
                 cat << END
             Usage:$script_name PATTERN[PATH][NAME_PATTERN]
             find file in current directory recursively,and print lines which directory 
@@ -124,7 +124,7 @@ local filepath=$1
             END
             }
             
-            # 
+            # コマンドライン引数が0個のとき(何も指定されていない時)
             if [ "$#" -wq 0 ]; then
                 usage
                 exit 1
@@ -134,19 +134,19 @@ local filepath=$1
             directory=$2
             name=$3
             
-            #
-            #
+            # 第二引数が空文字列なら
+            # デフォルト値で.(カレントディレクトリ)を設定
             if [ -z "$directory"]; then
                 directory="."
             fi
             
-            #
-            #
+            # 第三引数が空文字列なら
+            # デフォルト値として'*'を設定
             if[ -z "$name" ]; then
                 name='*'
             fi
             
-            #
+            # 検索ディレクトリが存在しない場合はエラーメッセージを表示して終了
             if[ ! -d "$directory" ]; then
                 echo "$0: ${directory}:No such directory" 1>&2
                 exit 2
