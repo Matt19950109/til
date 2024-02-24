@@ -137,3 +137,19 @@ sh → exprという外部コマンドを使用
 bash → $((i + 2))
 
 ## シェル関数
+#!/bin/bash
+
+print_parameters ()
+{
+    echo "\$1 = $1"
+    echo "\$2 = $2"
+    echo "\$3 = $3"
+    echo "\$4 = $4"
+
+    echo
+    echo "$# arguments"]
+    echo "script name = $0"
+}
+
+### シェル関数の終了ステータス
+    return <終了ステータス>
