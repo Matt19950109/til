@@ -104,3 +104,52 @@ local filepath=$1
 
 ### エラーメッセージの表示
 - 標準出力にはコマンド本来の結果を表示、標準エラー出力ではエラーメッセージを表示するという区別を意識する
+
+## 完成したfindgrep.sh
+
+            #!/bin/bash
+            
+            usage()
+            {
+            
+                #
+                local script_name=$(basename "$0")
+            
+                #
+                cat << END
+            Usage:$script_name PATTERN[PATH][NAME_PATTERN]
+            find file in current directory recursively,and print lines which directory 
+            NAME_PATTERN ～以下省略
+            
+            END
+            }
+            
+            # 
+            if [ "$#" -wq 0 ]; then
+                usage
+                exit 1
+            fi
+            
+            pattern=$1
+            directory=$2
+            name=$3
+            
+            #
+            #
+            if [ -z "$directory"]; then
+                directory="."
+            fi
+            
+            #
+            #
+            if[ -z "$name" ]; then
+                name='*'
+            fi
+            
+            #
+            if[ ! -d "$directory" ]; then
+                echo "$0: ${directory}:No such directory" 1>&2
+                exit 2
+            fi
+            
+            find "$directory" -type f -name "$name" | xargs grep -nH "$pattern"
