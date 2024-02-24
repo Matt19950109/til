@@ -112,3 +112,10 @@ exit <終了ステータス>
         echo "not supported file : $1"
         ;;
     esac
+
+## while文(指定した条件が真である限り繰り返し処理を行う)
+
+    while <コマンド>
+    do
+        繰り返し処理
+    done
