@@ -42,8 +42,30 @@ local filepath=$1
 ### インデント
 
 ### IFS-内部フィールド区切り文字
-- bashはスペースで単語を区切るようになっているためIFSのデフォルト値(スペース、タブ、改行)からスペースを外す
+- bashはスペースで単語を区切るようになっているためIFSのデフォルト値(スペース sp、タブ ht、改行nl)からスペースを外す
 
         IFSを改行のみに設定
         IFS='
         '
+## 最終的な例文
+        #!/bin/bash
+        
+        list_recursive ()
+        {
+            local filepath=$1
+            local indent=$2
+        
+            #
+            echo "${indent}${filepath##*/}"
+        
+            if [ -d "$filepath" ]; then
+            local fname
+            for fname in $(ls "$filepath")
+            do
+                #
+                list_recursive "${filepath}/${fname}""  $indent"
+            done
+            fi
+        }
+        
+        list_recursive "$1" ""
