@@ -69,3 +69,11 @@ exit <終了ステータス>
     do
         <繰り返す処理>
     done
+
+### 例文
+    #!/bin/bash
+    
+    for i in $(seq 1 5)
+    do
+        touch "000${i}.txt"
+    done
