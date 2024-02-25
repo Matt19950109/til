@@ -48,6 +48,8 @@ gunzip ps.txt.gz
 gzip -c ps.txt > pa_test.txt.gz
 
 ## tarとgzipを組み合わせる
+- tarコマンドだけでtar+gzファイルを作成可能
+
     tarコマンドでtar+gz形式のファイルを作成
     tar czf dir1.tar.gz dir1
     
@@ -62,7 +64,7 @@ gzip -c ps.txt > pa_test.txt.gz
 
 # bzipコマンド
 gzip同様ファイルの圧縮展開を行うコマンド
-**gzipより圧縮率が高くデータ量が小さくなる半面、時間がかかる**
+**gzipより圧縮率が高くデータ量が小さくなる反面、時間がかかる**
     
     bzip <圧縮元ファイル>
     ※.bz2という拡張子を付与される
