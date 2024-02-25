@@ -36,15 +36,23 @@ bashで利用できる連番のリストを生成可能
     tar tvf dir1.tar
 
 # gzipコマンド
-- 慣習として「.gz」の拡張子を付与
+- 慣習として「.gz」の拡張子を付与する
 
         gzip <圧縮元ファイル>
 
 ## 圧縮ファイルを展開
+gzip -d ps.txt.gz または
+gunzip ps.txt.gz
 
-## 標準出力にgzipファイルを出力
+## 標準出力にgzipファイルを出力(-cオプション)
+gzip -c ps.txt > pa_test.txt.gz
 
 ## tarとgzipを組み合わせる
+    tarコマンドでtar+gz形式のファイルを作成
+    tar czf dir1.tar.gz dir1
+    
+    tarコマンドでtar+gz形式のファイルを展開
+    tar xzf dir1.tar.gz
 
 ### tarとgzipコマンドでtar+gzファイルを作成
 
@@ -81,7 +89,9 @@ zip,unzipパッケージのインストール
     
     zipファイルの展開
     unzip dir1.zip
-    
+
+    パスワード付きzipファイルの作成
+    zip -er dir1.zip dir1
     対象ファイル名を表示せずにzipファイルを作成(qオプション)
     zip -rq dir1.zip dir1
     
