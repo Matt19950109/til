@@ -17,8 +17,8 @@ bashで利用できる連番のリストを生成可能
     tar -cf dir1.tar dir1
 
 ## アーカイブファイルの内容確認
-tオプションを利用する
-tar tf dir1.tar
+    tオプションを利用する
+    tar tf dir1.tar
 
 ## アーカイブファイルの展開
 
