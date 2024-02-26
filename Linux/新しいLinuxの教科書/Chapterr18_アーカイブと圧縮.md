@@ -79,8 +79,8 @@ gzip同様ファイルの圧縮展開を行うコマンド
 # zipコマンド
 - LINUX上ではあまり使用しないが、OSユーザとやり取りをするために使用
 
-    zip,unzipパッケージのインストール
-        # yum install zip unzip
+        zip,unzipパッケージのインストール
+            # yum install zip unzip
 
 ## zipファイルの作成
     zip -r <圧縮ファイル名> <圧縮太陽パス>
