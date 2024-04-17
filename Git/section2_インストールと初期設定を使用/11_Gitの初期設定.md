@@ -12,3 +12,4 @@
 ## その他設定確認
     git config --list
     cat ~/.gitconfig
+    
