@@ -3,6 +3,7 @@
     git config --global user.email "メールアドレス"
     git config --global core.editor 'code --wait'
     
+    
 
 ## gitの設定確認
     git config user.name
