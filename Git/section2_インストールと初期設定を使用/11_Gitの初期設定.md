@@ -4,6 +4,7 @@
     git config --global core.editor 'code --wait'
     
 
+
     
 
 ## gitの設定確認
