@@ -7,7 +7,7 @@
         DROP：削除
         ALTER：構成を変更
 
-## DML
+## DML 
 - テーブルの行を検索・変更する
 
         SELECT：行を検索
